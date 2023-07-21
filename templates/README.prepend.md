@@ -13,5 +13,5 @@ More information and features will follow.
 
 ## For Developers
 
-* You find different Models Data Objects (like `endpoints`, `scopes`) in JSON format in the `data/objects` directory of this repository  
+* You find different Models Data Objects (like `endpoints`, `scopes`) in JSON format in the `data/objects` directory of this repository
 * The automatic repository update run the task every day at midnight (UTC)
