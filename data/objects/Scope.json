@@ -1,0 +1,755 @@
+[
+    {
+        "id": 62,
+        "name": "user:edit:broadcast",
+        "description": null,
+        "endpoints": [
+            "Get User Extensions",
+            "Get User Active Extensions",
+            "Update User Extensions"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:52.000000Z",
+        "updated_at": "2023-07-20T23:31:52.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 61,
+        "name": "whispers:edit",
+        "description": "<p>Send whisper messages.</p>",
+        "endpoints": [],
+        "chat_and_pup_sub": true,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 60,
+        "name": "whispers:read",
+        "description": "<p>View your whisper messages.</p>",
+        "endpoints": [],
+        "chat_and_pup_sub": true,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 59,
+        "name": "chat:read",
+        "description": "<p>View live stream chat messages.</p>",
+        "endpoints": [],
+        "chat_and_pup_sub": true,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 58,
+        "name": "chat:edit",
+        "description": "<p>Send live stream chat messages.</p>",
+        "endpoints": [],
+        "chat_and_pup_sub": true,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 57,
+        "name": "channel:moderate",
+        "description": "<p>Perform moderation actions in a channel. The user requesting the scope must be a moderator in the channel.</p>",
+        "endpoints": [],
+        "chat_and_pup_sub": true,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 56,
+        "name": "user:manage:whispers",
+        "description": "<p>Read whispers that you send and receive, and send whispers on your behalf.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-whisper\" target=\"_blank\">Send Whisper</a></p>",
+        "endpoints": [
+            "Send Whisper"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 55,
+        "name": "user:read:subscriptions",
+        "description": "<p>View if an authorized user is subscribed to specific channels.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#check-user-subscription\" target=\"_blank\">Check User Subscription</a></p>",
+        "endpoints": [
+            "Check User Subscription"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 54,
+        "name": "user:read:follows",
+        "description": "<p>View the list of channels a user follows.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-followed-channels\" target=\"_blank\">Get Followed Channels</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-followed-streams\" target=\"_blank\">Get Followed Streams</a></p>",
+        "endpoints": [
+            "Get Followed Channels",
+            "Get Followed Streams"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 53,
+        "name": "user:read:email",
+        "description": "<p>View a user’s email address.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-users\" target=\"_blank\">Get Users</a> (optional)</p>",
+        "endpoints": [
+            "Get Users",
+            "Update User"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 52,
+        "name": "user:manage:chat_color",
+        "description": "<p>Update the color used for the user’s name in chat.<a href=\"https://dev.twitch.tv/docs/api/reference#update-user-chat-color\" target=\"_blank\">Update User Chat Color</a></p>",
+        "endpoints": [
+            "Update User Chat Color"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 51,
+        "name": "user:read:broadcast",
+        "description": "<p>View a user’s broadcasting configuration, including Extension configurations.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-stream-markers\" target=\"_blank\">Get Stream Markers</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-user-extensions\" target=\"_blank\">Get User Extensions</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-user-active-extensions\" target=\"_blank\">Get User Active Extensions</a></p>",
+        "endpoints": [
+            "Get Stream Markers",
+            "Get User Extensions",
+            "Get User Active Extensions"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 50,
+        "name": "user:manage:blocked_users",
+        "description": "<p>Manage the block list of a user.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#block-user\" target=\"_blank\">Block User</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#unblock-user\" target=\"_blank\">Unblock User</a></p>",
+        "endpoints": [
+            "Block User",
+            "Unblock User"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 49,
+        "name": "user:read:blocked_users",
+        "description": "<p>View the block list of a user.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-user-block-list\" target=\"_blank\">Get User Block List</a></p>",
+        "endpoints": [
+            "Get User Block List"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 48,
+        "name": "user:edit:follows",
+        "description": "<p>Deprecated. Was previously used for “Create User Follows” and “Delete User Follows.” See <a href=\"https://discuss.dev.twitch.tv/t/deprecation-of-create-and-delete-follows-api-endpoints/32351\" target=\"_blank\">Deprecation of Create and Delete Follows API Endpoints</a>.</p>",
+        "endpoints": [],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 47,
+        "name": "user:edit",
+        "description": "<p>Manage a user object.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-user\" target=\"_blank\">Update User</a></p>",
+        "endpoints": [
+            "Update User"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 46,
+        "name": "moderator:manage:shoutouts",
+        "description": "<p>Manage a broadcaster’s shoutouts.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-a-shoutout\" target=\"_blank\">Send a Shoutout</a></p>",
+        "endpoints": [
+            "Send a Shoutout"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 45,
+        "name": "moderator:read:shoutouts",
+        "description": "<p>View a broadcaster’s shoutouts.\n<br>\n<br></p>",
+        "endpoints": [],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 44,
+        "name": "moderator:manage:shield_mode",
+        "description": "<p>Manage a broadcaster’s Shield Mode status.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-shield-mode-status\" target=\"_blank\">Update Shield Mode Status</a></p>",
+        "endpoints": [
+            "Update Shield Mode Status",
+            "Get Shield Mode Status"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 43,
+        "name": "moderator:read:shield_mode",
+        "description": "<p>View a broadcaster’s Shield Mode status.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-shield-mode-status\" target=\"_blank\">Get Shield Mode Status</a></p>",
+        "endpoints": [
+            "Get Shield Mode Status"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 42,
+        "name": "moderator:manage:guest_star",
+        "description": "<p>Manage Guest Star for channels where you are a Guest Star moderator.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-guest-star-invite\" target=\"_blank\">Send Guest Star Invite</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-guest-star-invite\" target=\"_blank\">Delete Guest Star Invite</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#assign-guest-star-slot\" target=\"_blank\">Assign Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-guest-star-slot\" target=\"_blank\">Update Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-guest-star-slot\" target=\"_blank\">Delete Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-guest-star-slot-settings\" target=\"_blank\">Update Guest Star Slot Settings</a></p>",
+        "endpoints": [],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 41,
+        "name": "moderator:read:guest_star",
+        "description": "<p>Read Guest Star details for channels where you are a Guest Star moderator.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-channel-guest-star-settings\" target=\"_blank\">Get Channel Guest Star Settings</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-guest-star-session\" target=\"_blank\">Get Guest Star Session</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-guest-star-invites\" target=\"_blank\">Get Guest Star Invites</a></p>",
+        "endpoints": [],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 40,
+        "name": "moderator:read:followers",
+        "description": "<p>Read the followers of a broadcaster.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-channel-followers\" target=\"_blank\">Get Channel Followers</a></p>",
+        "endpoints": [
+            "Get Channel Followers"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 39,
+        "name": "moderator:read:chatters",
+        "description": "<p>View the chatters in a broadcaster’s chat room.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-chatters\" target=\"_blank\">Get Chatters</a></p>",
+        "endpoints": [
+            "Get Chatters"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 38,
+        "name": "moderator:manage:chat_settings",
+        "description": "<p>Manage a broadcaster’s chat room settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-chat-settings\" target=\"_blank\">Update Chat Settings</a></p>",
+        "endpoints": [
+            "Update Chat Settings"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 37,
+        "name": "moderator:read:chat_settings",
+        "description": "<p>View a broadcaster’s chat room settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-chat-settings\" target=\"_blank\">Get Chat Settings</a></p>",
+        "endpoints": [],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 36,
+        "name": "moderator:manage:chat_messages",
+        "description": "<p>Delete chat messages in channels where you have the moderator role\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-chat-messages\" target=\"_blank\">Delete Chat Messages</a></p>",
+        "endpoints": [
+            "Delete Chat Messages"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 35,
+        "name": "moderator:manage:blocked_terms",
+        "description": "<p>Manage a broadcaster’s list of blocked terms.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#add-blocked-term\" target=\"_blank\">Add Blocked Term</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#remove-blocked-term\" target=\"_blank\">Remove Blocked Term</a></p>",
+        "endpoints": [
+            "Get Blocked Terms",
+            "Add Blocked Term",
+            "Remove Blocked Term"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 34,
+        "name": "moderator:read:blocked_terms",
+        "description": "<p>View a broadcaster’s list of blocked terms.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-blocked-terms\" target=\"_blank\">Get Blocked Terms</a></p>",
+        "endpoints": [
+            "Get Blocked Terms"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 33,
+        "name": "moderator:manage:banned_users",
+        "description": "<p>Ban and unban users.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#ban-user\" target=\"_blank\">Ban users</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#unban-user\" target=\"_blank\">Unban user</a></p>",
+        "endpoints": [
+            "Get Banned Users",
+            "Ban User",
+            "Unban User"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 32,
+        "name": "moderator:manage:automod_settings",
+        "description": "<p>Manage a broadcaster’s AutoMod settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-automod-settings\" target=\"_blank\">Update AutoMod Settings</a></p>",
+        "endpoints": [
+            "Update AutoMod Settings"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 31,
+        "name": "moderator:read:automod_settings",
+        "description": "<p>View a broadcaster’s AutoMod settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-automod-settings\" target=\"_blank\">Get AutoMod Settings</a></p>",
+        "endpoints": [
+            "Get AutoMod Settings"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 30,
+        "name": "moderator:manage:automod",
+        "description": "<p>Manage messages held for review by AutoMod in channels where you are a moderator.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#manage-held-automod-messages\" target=\"_blank\">Manage Held AutoMod Messages</a></p>",
+        "endpoints": [
+            "Manage Held AutoMod Messages"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 29,
+        "name": "moderator:manage:announcements",
+        "description": "<p>Send announcements in channels where you have the moderator role.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-chat-announcement\" target=\"_blank\">Send Chat Announcement</a></p>",
+        "endpoints": [
+            "Send Chat Announcement"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 28,
+        "name": "moderation:read",
+        "description": "<p>View a channel’s moderation data including Moderators, Bans, Timeouts, and Automod settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#check-automod-status\" target=\"_blank\">Check AutoMod Status</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-banned-users\" target=\"_blank\">Get Banned Users</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-moderators\" target=\"_blank\">Get Moderators</a></p>",
+        "endpoints": [
+            "Check AutoMod Status",
+            "Get Banned Users",
+            "Get Moderators"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 27,
+        "name": "clips:edit",
+        "description": "<p>Manage Clips for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-clip\" target=\"_blank\">Create Clip</a></p>",
+        "endpoints": [
+            "Create Clip"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 26,
+        "name": "channel:manage:vips",
+        "description": "<p>Add or remove the VIP role from users in your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-vips\" target=\"_blank\">Get VIPs</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#add-channel-vip\" target=\"_blank\">Add Channel VIP</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#remove-channel-vip\" target=\"_blank\">Remove Channel VIP</a></p>",
+        "endpoints": [
+            "Get VIPs",
+            "Add Channel VIP",
+            "Remove Channel VIP"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 25,
+        "name": "channel:read:vips",
+        "description": "<p>Read the list of VIPs in your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-vips\" target=\"_blank\">Get VIPs</a></p>",
+        "endpoints": [
+            "Get VIPs"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 24,
+        "name": "channel:manage:videos",
+        "description": "<p>Manage a channel’s videos, including deleting videos.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-videos\" target=\"_blank\">Delete Videos</a></p>",
+        "endpoints": [
+            "Delete Videos"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 23,
+        "name": "channel:read:subscriptions",
+        "description": "<p>View a list of all subscribers to a channel and check if a user is subscribed to a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-broadcaster-subscriptions\" target=\"_blank\">Get Broadcaster Subscriptions</a></p>",
+        "endpoints": [
+            "Get Broadcaster Subscriptions"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 22,
+        "name": "channel:read:stream_key",
+        "description": "<p>View an authorized user’s stream key.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-stream-key\" target=\"_blank\">Get Stream Key</a></p>",
+        "endpoints": [
+            "Get Stream Key"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 21,
+        "name": "channel:manage:schedule",
+        "description": "<p>Manage a channel’s stream schedule.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-channel-stream-schedule\" target=\"_blank\">Update Channel Stream Schedule</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-channel-stream-schedule-segment\" target=\"_blank\">Create Channel Stream Schedule Segment</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-channel-stream-schedule-segment\" target=\"_blank\">Update Channel Stream Schedule Segment</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-channel-stream-schedule-segment\" target=\"_blank\">Delete Channel Stream Schedule Segment</a></p>",
+        "endpoints": [
+            "Update Channel Stream Schedule",
+            "Create Channel Stream Schedule Segment",
+            "Update Channel Stream Schedule Segment",
+            "Delete Channel Stream Schedule Segment"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 20,
+        "name": "channel:manage:redemptions",
+        "description": "<p>Manage Channel Points custom rewards and their redemptions on a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-custom-rewards\" target=\"_blank\">Create Custom Rewards</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-custom-reward\" target=\"_blank\">Delete Custom Reward</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-custom-reward\" target=\"_blank\">Update Custom Reward</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-redemption-status\" target=\"_blank\">Update Redemption Status</a></p>",
+        "endpoints": [
+            "Create Custom Rewards",
+            "Delete Custom Reward",
+            "Get Custom Reward",
+            "Get Custom Reward Redemption",
+            "Update Custom Reward",
+            "Update Redemption Status"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 19,
+        "name": "channel:read:redemptions",
+        "description": "<p>View Channel Points custom rewards and their redemptions on a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-custom-reward\" target=\"_blank\">Get Custom Reward</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-custom-reward-redemption\" target=\"_blank\">Get Custom Reward Redemption</a></p>",
+        "endpoints": [
+            "Get Custom Reward",
+            "Get Custom Reward Redemption"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 18,
+        "name": "channel:manage:raids",
+        "description": "<p>Manage a channel raiding another channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#start-a-raid\" target=\"_blank\">Start a raid</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#cancel-a-raid\" target=\"_blank\">Cancel a raid</a></p>",
+        "endpoints": [
+            "Start a raid",
+            "Cancel a raid"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 17,
+        "name": "channel:manage:predictions",
+        "description": "<p>Manage of channel’s Channel Points Predictions\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-prediction\" target=\"_blank\">Create Channel Points Prediction</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#end-prediction\" target=\"_blank\">End Channel Points Prediction</a></p>",
+        "endpoints": [
+            "Get Predictions",
+            "Create Prediction",
+            "End Prediction"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 16,
+        "name": "channel:read:predictions",
+        "description": "<p>View a channel’s Channel Points Predictions.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-predictions\" target=\"_blank\">Get Channel Points Predictions</a></p>",
+        "endpoints": [
+            "Get Predictions"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 15,
+        "name": "channel:manage:polls",
+        "description": "<p>Manage a channel’s polls.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-poll\" target=\"_blank\">Create Poll</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#end-poll\" target=\"_blank\">End Poll</a></p>",
+        "endpoints": [
+            "Get Polls",
+            "Create Poll",
+            "End Poll"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 14,
+        "name": "channel:read:polls",
+        "description": "<p>View a channel’s polls.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-polls\" target=\"_blank\">Get Polls</a></p>",
+        "endpoints": [
+            "Get Polls"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 13,
+        "name": "channel:manage:moderators",
+        "description": "<p>Add or remove the moderator role from users in your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#add-channel-moderator\" target=\"_blank\">Add Channel Moderator</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#remove-channel-moderator\" target=\"_blank\">Remove Channel Moderator</a></p>",
+        "endpoints": [
+            "Get Moderators",
+            "Add Channel Moderator",
+            "Remove Channel Moderator"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 12,
+        "name": "channel:read:hype_train",
+        "description": "<p>View Hype Train information for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-hype-train-events\" target=\"_blank\">Get Hype Train Events</a></p>",
+        "endpoints": [
+            "Get Hype Train Events"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 11,
+        "name": "channel:manage:guest_star",
+        "description": "<p>Manage Guest Star for your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-channel-guest-star-settings\" target=\"_blank\">Update Channel Guest Star Settings</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-guest-star-session\" target=\"_blank\">Create Guest Star Session</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#end-guest-star-session\" target=\"_blank\">End Guest Star Session</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-guest-star-invite\" target=\"_blank\">Send Guest Star Invite</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-guest-star-invite\" target=\"_blank\">Delete Guest Star Invite</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#assign-guest-star-slot\" target=\"_blank\">Assign Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-guest-star-slot\" target=\"_blank\">Update Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-guest-star-slot\" target=\"_blank\">Delete Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-guest-star-slot-settings\" target=\"_blank\">Update Guest Star Slot Settings</a></p>",
+        "endpoints": [],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 10,
+        "name": "channel:read:guest_star",
+        "description": "<p>Read Guest Star details for your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-channel-guest-star-settings\" target=\"_blank\">Get Channel Guest Star Settings</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-guest-star-session\" target=\"_blank\">Get Guest Star Session</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-guest-star-invites\" target=\"_blank\">Get Guest Star Invites</a></p>",
+        "endpoints": [],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 9,
+        "name": "channel:read:goals",
+        "description": "<p>View Creator Goals for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-creator-goals\" target=\"_blank\">Get Creator Goals</a></p>",
+        "endpoints": [
+            "Get Creator Goals"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 8,
+        "name": "channel:manage:extensions",
+        "description": "<p>Manage a channel’s Extension configuration, including activating Extensions.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-user-active-extensions\" target=\"_blank\">Get User Active Extensions</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-user-extensions\" target=\"_blank\">Update User Extensions</a></p>",
+        "endpoints": [],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 7,
+        "name": "channel:read:editors",
+        "description": "<p>View a list of users with the editor role for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-channel-editors\" target=\"_blank\">Get Channel Editors</a></p>",
+        "endpoints": [
+            "Get Channel Editors"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:48.000000Z",
+        "updated_at": "2023-07-20T23:31:48.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 6,
+        "name": "channel:edit:commercial",
+        "description": "<p>Run commercials on a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#start-commercial\" target=\"_blank\">Start Commercial</a></p>",
+        "endpoints": [
+            "Start Commercial"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:47.000000Z",
+        "updated_at": "2023-07-20T23:31:47.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 5,
+        "name": "channel:read:charity",
+        "description": "<p>Read charity campaign details and user donations on your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-charity-campaign\" target=\"_blank\">Get Charity Campaign</a></p>",
+        "endpoints": [
+            "Get Charity Campaign",
+            "Get Charity Campaign Donations"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:47.000000Z",
+        "updated_at": "2023-07-20T23:31:47.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 4,
+        "name": "channel:manage:broadcast",
+        "description": "<p>Manage a channel’s broadcast configuration, including updating channel configuration and managing stream markers and stream tags.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#modify-channel-information\" target=\"_blank\">Modify Channel Information</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-stream-marker\" target=\"_blank\">Create Stream Marker</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#replace-stream-tags\" target=\"_blank\">Replace Stream Tags</a></p>",
+        "endpoints": [
+            "Modify Channel Information",
+            "Create Stream Marker",
+            "Get Stream Markers"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:47.000000Z",
+        "updated_at": "2023-07-20T23:31:47.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 3,
+        "name": "bits:read",
+        "description": "<p>View Bits information for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-bits-leaderboard\" target=\"_blank\">Get Bits Leaderboard</a></p>",
+        "endpoints": [
+            "Get Bits Leaderboard"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:47.000000Z",
+        "updated_at": "2023-07-20T23:31:47.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 2,
+        "name": "analytics:read:games",
+        "description": "<p>View analytics data for the games owned by the authenticated account.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-game-analytics\" target=\"_blank\">Get Game Analytics</a></p>",
+        "endpoints": [
+            "Get Game Analytics"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:47.000000Z",
+        "updated_at": "2023-07-20T23:31:47.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 1,
+        "name": "analytics:read:extensions",
+        "description": "<p>View analytics data for the Twitch Extensions owned by the authenticated account.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-extension-analytics\" target=\"_blank\">Get Extension Analytics</a></p>",
+        "endpoints": [
+            "Get Extension Analytics"
+        ],
+        "chat_and_pup_sub": false,
+        "created_at": "2023-07-20T23:31:47.000000Z",
+        "updated_at": "2023-07-20T23:31:47.000000Z",
+        "deleted_at": null
+    }
+]

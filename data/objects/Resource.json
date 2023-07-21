@@ -1,0 +1,446 @@
+[
+    {
+        "id": 29,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Whispers",
+        "endpoints": [
+            "Send Whisper"
+        ],
+        "created_at": "2023-07-20T23:31:52.000000Z",
+        "updated_at": "2023-07-20T23:31:52.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 28,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Videos",
+        "endpoints": [
+            "Get Videos",
+            "Delete Videos"
+        ],
+        "created_at": "2023-07-20T23:31:52.000000Z",
+        "updated_at": "2023-07-20T23:31:52.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 27,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Users",
+        "endpoints": [
+            "Get Users",
+            "Update User",
+            "Get Users Follows",
+            "Get User Block List",
+            "Block User",
+            "Unblock User",
+            "Get User Extensions",
+            "Get User Active Extensions",
+            "Update User Extensions"
+        ],
+        "created_at": "2023-07-20T23:31:52.000000Z",
+        "updated_at": "2023-07-20T23:31:52.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 26,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Teams",
+        "endpoints": [
+            "Get Channel Teams",
+            "Get Teams"
+        ],
+        "created_at": "2023-07-20T23:31:52.000000Z",
+        "updated_at": "2023-07-20T23:31:52.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 25,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Tags",
+        "endpoints": [
+            "Get All Stream Tags",
+            "Get Stream Tags"
+        ],
+        "created_at": "2023-07-20T23:31:52.000000Z",
+        "updated_at": "2023-07-20T23:31:52.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 24,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Subscriptions",
+        "endpoints": [
+            "Get Broadcaster Subscriptions",
+            "Check User Subscription"
+        ],
+        "created_at": "2023-07-20T23:31:52.000000Z",
+        "updated_at": "2023-07-20T23:31:52.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 23,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Streams",
+        "endpoints": [
+            "Get Stream Key",
+            "Get Streams",
+            "Get Followed Streams",
+            "Create Stream Marker",
+            "Get Stream Markers"
+        ],
+        "created_at": "2023-07-20T23:31:51.000000Z",
+        "updated_at": "2023-07-20T23:31:51.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 22,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Search",
+        "endpoints": [
+            "Search Categories",
+            "Search Channels"
+        ],
+        "created_at": "2023-07-20T23:31:51.000000Z",
+        "updated_at": "2023-07-20T23:31:51.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 21,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Schedule",
+        "endpoints": [
+            "Get Channel Stream Schedule",
+            "Get Channel iCalendar",
+            "Update Channel Stream Schedule",
+            "Create Channel Stream Schedule Segment",
+            "Update Channel Stream Schedule Segment",
+            "Delete Channel Stream Schedule Segment"
+        ],
+        "created_at": "2023-07-20T23:31:51.000000Z",
+        "updated_at": "2023-07-20T23:31:51.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 20,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Raids",
+        "endpoints": [
+            "Start a raid",
+            "Cancel a raid"
+        ],
+        "created_at": "2023-07-20T23:31:51.000000Z",
+        "updated_at": "2023-07-20T23:31:51.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 19,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Predictions",
+        "endpoints": [
+            "Get Predictions",
+            "Create Prediction",
+            "End Prediction"
+        ],
+        "created_at": "2023-07-20T23:31:51.000000Z",
+        "updated_at": "2023-07-20T23:31:51.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 18,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Polls",
+        "endpoints": [
+            "Get Polls",
+            "Create Poll",
+            "End Poll"
+        ],
+        "created_at": "2023-07-20T23:31:51.000000Z",
+        "updated_at": "2023-07-20T23:31:51.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 17,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Moderation",
+        "endpoints": [
+            "Check AutoMod Status",
+            "Manage Held AutoMod Messages",
+            "Get AutoMod Settings",
+            "Update AutoMod Settings",
+            "Get Banned Users",
+            "Ban User",
+            "Unban User",
+            "Get Blocked Terms",
+            "Add Blocked Term",
+            "Remove Blocked Term",
+            "Delete Chat Messages",
+            "Get Moderators",
+            "Add Channel Moderator",
+            "Remove Channel Moderator",
+            "Get VIPs",
+            "Add Channel VIP",
+            "Remove Channel VIP",
+            "Update Shield Mode Status",
+            "Get Shield Mode Status"
+        ],
+        "created_at": "2023-07-20T23:31:51.000000Z",
+        "updated_at": "2023-07-20T23:31:51.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 16,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Hype Train",
+        "endpoints": [
+            "Get Hype Train Events"
+        ],
+        "created_at": "2023-07-20T23:31:51.000000Z",
+        "updated_at": "2023-07-20T23:31:51.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 15,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Guest Star",
+        "endpoints": [
+            "Get Channel Guest Star Settings",
+            "Update Channel Guest Star Settings",
+            "Get Guest Star Session",
+            "Create Guest Star Session",
+            "End Guest Star Session",
+            "Get Guest Star Invites",
+            "Send Guest Star Invite",
+            "Delete Guest Star Invite",
+            "Assign Guest Star Slot",
+            "Update Guest Star Slot",
+            "Delete Guest Star Slot",
+            "Update Guest Star Slot Settings"
+        ],
+        "created_at": "2023-07-20T23:31:51.000000Z",
+        "updated_at": "2023-07-20T23:31:51.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 14,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Goals",
+        "endpoints": [
+            "Get Creator Goals"
+        ],
+        "created_at": "2023-07-20T23:31:51.000000Z",
+        "updated_at": "2023-07-20T23:31:51.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 13,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Games",
+        "endpoints": [
+            "Get Top Games",
+            "Get Games"
+        ],
+        "created_at": "2023-07-20T23:31:50.000000Z",
+        "updated_at": "2023-07-20T23:31:50.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 12,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "EventSub",
+        "endpoints": [
+            "Create EventSub Subscription",
+            "Delete EventSub Subscription",
+            "Get EventSub Subscriptions"
+        ],
+        "created_at": "2023-07-20T23:31:50.000000Z",
+        "updated_at": "2023-07-20T23:31:50.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 11,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Extensions",
+        "endpoints": [
+            "Get Extension Configuration Segment",
+            "Set Extension Configuration Segment",
+            "Set Extension Required Configuration",
+            "Send Extension PubSub Message",
+            "Get Extension Live Channels",
+            "Get Extension Secrets",
+            "Create Extension Secret",
+            "Send Extension Chat Message",
+            "Get Extensions",
+            "Get Released Extensions",
+            "Get Extension Bits Products",
+            "Update Extension Bits Product"
+        ],
+        "created_at": "2023-07-20T23:31:50.000000Z",
+        "updated_at": "2023-07-20T23:31:50.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 10,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Entitlements",
+        "endpoints": [
+            "Get Drops Entitlements",
+            "Update Drops Entitlements"
+        ],
+        "created_at": "2023-07-20T23:31:50.000000Z",
+        "updated_at": "2023-07-20T23:31:50.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 9,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "CCLs",
+        "endpoints": [
+            "Get Content Classification Labels"
+        ],
+        "created_at": "2023-07-20T23:31:50.000000Z",
+        "updated_at": "2023-07-20T23:31:50.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 8,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Clips",
+        "endpoints": [
+            "Create Clip",
+            "Get Clips"
+        ],
+        "created_at": "2023-07-20T23:31:50.000000Z",
+        "updated_at": "2023-07-20T23:31:50.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 7,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Chat",
+        "endpoints": [
+            "Get Chatters",
+            "Get Channel Emotes",
+            "Get Global Emotes",
+            "Get Emote Sets",
+            "Get Channel Chat Badges",
+            "Get Global Chat Badges",
+            "Get Chat Settings",
+            "Update Chat Settings",
+            "Send Chat Announcement",
+            "Send a Shoutout",
+            "Get User Chat Color",
+            "Update User Chat Color"
+        ],
+        "created_at": "2023-07-20T23:31:50.000000Z",
+        "updated_at": "2023-07-20T23:31:50.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 6,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Charity",
+        "endpoints": [
+            "Get Charity Campaign",
+            "Get Charity Campaign Donations"
+        ],
+        "created_at": "2023-07-20T23:31:50.000000Z",
+        "updated_at": "2023-07-20T23:31:50.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 5,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Channel Points",
+        "endpoints": [
+            "Create Custom Rewards",
+            "Delete Custom Reward",
+            "Get Custom Reward",
+            "Get Custom Reward Redemption",
+            "Update Custom Reward",
+            "Update Redemption Status"
+        ],
+        "created_at": "2023-07-20T23:31:50.000000Z",
+        "updated_at": "2023-07-20T23:31:50.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 4,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Channels",
+        "endpoints": [
+            "Get Channel Information",
+            "Modify Channel Information",
+            "Get Channel Editors",
+            "Get Followed Channels",
+            "Get Channel Followers"
+        ],
+        "created_at": "2023-07-20T23:31:50.000000Z",
+        "updated_at": "2023-07-20T23:31:50.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 3,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Bits",
+        "endpoints": [
+            "Get Bits Leaderboard",
+            "Get Cheermotes",
+            "Get Extension Transactions"
+        ],
+        "created_at": "2023-07-20T23:31:50.000000Z",
+        "updated_at": "2023-07-20T23:31:50.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 2,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Analytics",
+        "endpoints": [
+            "Get Extension Analytics",
+            "Get Game Analytics"
+        ],
+        "created_at": "2023-07-20T23:31:49.000000Z",
+        "updated_at": "2023-07-20T23:31:49.000000Z",
+        "deleted_at": null
+    },
+    {
+        "id": 1,
+        "api_id": 1,
+        "api": "Helix",
+        "name": "Ads",
+        "endpoints": [
+            "Start Commercial"
+        ],
+        "created_at": "2023-07-20T23:31:49.000000Z",
+        "updated_at": "2023-07-20T23:31:49.000000Z",
+        "deleted_at": null
+    }
+]
