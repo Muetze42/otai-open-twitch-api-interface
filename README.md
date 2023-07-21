@@ -1,7 +1,7 @@
 # OTAI - Open Twitch API Interface
 
 Test the Twitch API directly in the browser. Just authenticate, choose your endpoint and go.
-https://ko-fi.com/Post/Open-Twitch-API-Interface--Open-Beta-K3K4NF795
+
 * URL: [https://otai.ws](https://otai.ws)
 * Ko-Fi Post: [https://ko-fi.com/post/Open-Twitch-API-Interface--Open-Beta-K3K4NF795](https://ko-fi.com/post/Open-Twitch-API-Interface--Open-Beta-K3K4NF795)
 
