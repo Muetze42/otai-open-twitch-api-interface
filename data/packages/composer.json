@@ -2,6 +2,13 @@
     "name": "norman-huth/otai-open-twitch-api-interface-laravel",
     "type": "project",
     "description": "A webinterface to send Twitch API requests.",
+    "authors": [
+        {
+            "name": "Norman Huth",
+            "homepage": "https://huth.it",
+            "role": "Lead Developer"
+        }
+    ],
     "keywords": [
         "laravel",
         "framework"
