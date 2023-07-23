@@ -20,7 +20,7 @@ More information and features will follow.
 ### Active Endpoints
 
 | Name                                   | Route                                        |                               Scopes                               |
-|----------------------------------------|----------------------------------------------|:------------------------------------------------------------------:|
+|:---------------------------------------|:---------------------------------------------|:------------------------------------------------------------------:|
 | Add Blocked Term                       | `/moderation/blocked_terms`                  |                  `moderator:manage:blocked_terms`                  |
 | Add Channel Moderator                  | `/moderation/moderators`                     |                    `channel:manage:moderators`                     |
 | Add Channel VIP                        | `/channels/vips`                             |                       `channel:manage:vips`                        |
@@ -33,6 +33,7 @@ More information and features will follow.
 | Create Channel Stream Schedule Segment | `/schedule/segment`                          |                     `channel:manage:schedule`                      |
 | Create Clip                            | `/clips`                                     |                            `clips:edit`                            |
 | Create Custom Rewards                  | `/channel_points/custom_rewards`             |                    `channel:manage:redemptions`                    |
+| Create EventSub Subscription           | `/eventsub/subscriptions`                    |                                                                    |
 | Create Guest Star Session              | `/guest_star/session`                        |                                                                    |
 | Create Poll                            | `/polls`                                     |                       `channel:manage:polls`                       |
 | Create Prediction                      | `/predictions`                               |                    `channel:manage:predictions`                    |
@@ -40,6 +41,7 @@ More information and features will follow.
 | Delete Channel Stream Schedule Segment | `/schedule/segment`                          |                     `channel:manage:schedule`                      |
 | Delete Chat Messages                   | `/moderation/chat`                           |                  `moderator:manage:chat_messages`                  |
 | Delete Custom Reward                   | `/channel_points/custom_rewards`             |                    `channel:manage:redemptions`                    |
+| Delete EventSub Subscription           | `/eventsub/subscriptions`                    |                                                                    |
 | Delete Guest Star Invite               | `/guest_star/invites`                        |                                                                    |
 | Delete Guest Star Slot                 | `/guest_star/slot`                           |                                                                    |
 | Delete Videos                          | `/videos`                                    |                      `channel:manage:videos`                       |
@@ -61,6 +63,7 @@ More information and features will follow.
 | Get Channel Stream Schedule            | `/schedule`                                  |                                                                    |
 | Get Channel Teams                      | `/teams/channel`                             |                                                                    |
 | Get Charity Campaign                   | `/charity/campaigns`                         |                       `channel:read:charity`                       |
+| Get Charity Campaign Donations         | `/charity/donations`                         |                       `channel:read:charity`                       |
 | Get Chat Settings                      | `/chat/settings`                             |                                                                    |
 | Get Chatters                           | `/chat/chatters`                             |                     `moderator:read:chatters`                      |
 | Get Cheermotes                         | `/bits/cheermotes`                           |                                                                    |
@@ -71,6 +74,7 @@ More information and features will follow.
 | Get Custom Reward Redemption           | `/channel_points/custom_rewards/redemptions` |     `channel:read:redemptions`<br>`channel:manage:redemptions`     |
 | Get Drops Entitlements                 | `/entitlements/drops`                        |                                                                    |
 | Get Emote Sets                         | `/chat/emotes/set`                           |                                                                    |
+| Get EventSub Subscriptions             | `/eventsub/subscriptions`                    |                                                                    |
 | Get Extension Analytics                | `/analytics/extensions`                      |                    `analytics:read:extensions`                     |
 | Get Extension Live Channels            | `/extensions/live`                           |                                                                    |
 | Get Followed Channels                  | `/channels/followed`                         |                        `user:read:follows`                         |
@@ -133,21 +137,21 @@ More information and features will follow.
 
 ### Inactive Endpoints
 
-| Name                                 | Route                                |         Scopes         |
-|--------------------------------------|--------------------------------------|:----------------------:|
-| Create EventSub Subscription         | `/eventsub/subscriptions`            |                        |
-| Create Extension Secret              | `/extensions/jwt/secrets`            |                        |
-| Delete EventSub Subscription         | `/eventsub/subscriptions`            |                        |
-| Get Channel iCalendar                | `/schedule/icalendar`                |                        |
-| Get Charity Campaign Donations       | `/charity/donations`                 | `channel:read:charity` |
-| Get EventSub Subscriptions           | `/eventsub/subscriptions`            |                        |
-| Get Extension Bits Products          | `/bits/extensions`                   |                        |
-| Get Extension Configuration Segment  | `/extensions/configurations`         |                        |
-| Get Extension Secrets                | `/extensions/jwt/secrets`            |                        |
-| Get Extension Transactions           | `/extensions/transactions`           |                        |
-| Get Extensions                       | `/extensions`                        |                        |
-| Send Extension Chat Message          | `/extensions/chat`                   |                        |
-| Send Extension PubSub Message        | `/extensions/pubsub`                 |                        |
-| Set Extension Configuration Segment  | `/extensions/configurations`         |                        |
-| Set Extension Required Configuration | `/extensions/required_configuration` |                        |
-| Update Extension Bits Product        | `/bits/extensions`                   |                        |
+| Name                                 | Route                                |
+|:-------------------------------------|:-------------------------------------|
+| Create Extension Secret              | `/extensions/jwt/secrets`            |
+| Get Channel iCalendar                | `/schedule/icalendar`                |
+| Get Extension Bits Products          | `/bits/extensions`                   |
+| Get Extension Configuration Segment  | `/extensions/configurations`         |
+| Get Extension Secrets                | `/extensions/jwt/secrets`            |
+| Get Extension Transactions           | `/extensions/transactions`           |
+| Get Extensions                       | `/extensions`                        |
+| Send Extension Chat Message          | `/extensions/chat`                   |
+| Send Extension PubSub Message        | `/extensions/pubsub`                 |
+| Set Extension Configuration Segment  | `/extensions/configurations`         |
+| Set Extension Required Configuration | `/extensions/required_configuration` |
+| Update Extension Bits Product        | `/bits/extensions`                   |
+
+---
+
+2023 Norman Huth <[https://huth.it](https://huth.it)>

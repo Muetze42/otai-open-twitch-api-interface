@@ -11,7 +11,6 @@
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.7",
         "inertiajs/inertia-laravel": "^v0.6.9",
-        "kba-team/markdown-table": "^1.1",
         "laravel/framework": "^10.15",
         "laravel/sanctum": "^3.2",
         "laravel/socialite": "^5.8",
