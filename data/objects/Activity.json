@@ -1,5 +1,25 @@
 [
     {
+        "id": 217,
+        "log_name": "endpoints",
+        "description": "updated",
+        "subject_type": "App\\Models\\Endpoint",
+        "subject_id": 116,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "instruction": "Gets information about users that are following other users. For example, you can use this endpoint to answer questions like “who is qotrok following,” “who is following qotrok,” or “is user X following user Y.”\n<blockquote><strong><em>Deprecation Notice:</em></strong> This endpoint is deprecated and will be decommissioned on <a href=\"https://discuss.dev.twitch.tv/t/follows-endpoints-and-eventsub-subscription-type-are-now-available-in-open-beta/43322\" target=\"_blank\">August 3, 2023</a>. Access to this endpoint is limited to client IDs that have called the endpoint on or before February 17, 2023.</blockquote>"
+            },
+            "old": {
+                "instruction": "Gets information about users that are following other users. For example, you can use this endpoint to answer questions like “who is qotrok following,” “who is following qotrok,” or “is user X following user Y.”"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-23T21:35:26.000000Z"
+    },
+    {
         "id": 216,
         "log_name": "endpoints",
         "description": "created",
