@@ -1,5 +1,1225 @@
 [
     {
+        "id": 328,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 61,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Send whisper messages."
+            },
+            "old": {
+                "description": "<p>Send whisper messages.</p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 327,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 60,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View your whisper messages."
+            },
+            "old": {
+                "description": "<p>View your whisper messages.</p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 326,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 59,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View live stream chat messages."
+            },
+            "old": {
+                "description": "<p>View live stream chat messages.</p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 325,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 58,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Send live stream chat messages."
+            },
+            "old": {
+                "description": "<p>Send live stream chat messages.</p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 324,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 57,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Perform moderation actions in a channel. The user requesting the scope must be a moderator in the channel."
+            },
+            "old": {
+                "description": "<p>Perform moderation actions in a channel. The user requesting the scope must be a moderator in the channel.</p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 323,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 56,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Read whispers that you send and receive, and send whispers on your behalf.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-whisper\" target=\"_blank\">Send Whisper</a>"
+            },
+            "old": {
+                "description": "<p>Read whispers that you send and receive, and send whispers on your behalf.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-whisper\" target=\"_blank\">Send Whisper</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 322,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 55,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View if an authorized user is subscribed to specific channels.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#check-user-subscription\" target=\"_blank\">Check User Subscription</a>"
+            },
+            "old": {
+                "description": "<p>View if an authorized user is subscribed to specific channels.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#check-user-subscription\" target=\"_blank\">Check User Subscription</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 321,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 54,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View the list of channels a user follows.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-followed-channels\" target=\"_blank\">Get Followed Channels</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-followed-streams\" target=\"_blank\">Get Followed Streams</a>"
+            },
+            "old": {
+                "description": "<p>View the list of channels a user follows.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-followed-channels\" target=\"_blank\">Get Followed Channels</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-followed-streams\" target=\"_blank\">Get Followed Streams</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 320,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 53,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View a user’s email address.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-users\" target=\"_blank\">Get Users</a> (optional)"
+            },
+            "old": {
+                "description": "<p>View a user’s email address.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-users\" target=\"_blank\">Get Users</a> (optional)</p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 319,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 52,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Update the color used for the user’s name in chat.<a href=\"https://dev.twitch.tv/docs/api/reference#update-user-chat-color\" target=\"_blank\">Update User Chat Color</a>"
+            },
+            "old": {
+                "description": "<p>Update the color used for the user’s name in chat.<a href=\"https://dev.twitch.tv/docs/api/reference#update-user-chat-color\" target=\"_blank\">Update User Chat Color</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 318,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 51,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View a user’s broadcasting configuration, including Extension configurations.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-stream-markers\" target=\"_blank\">Get Stream Markers</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-user-extensions\" target=\"_blank\">Get User Extensions</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-user-active-extensions\" target=\"_blank\">Get User Active Extensions</a>"
+            },
+            "old": {
+                "description": "<p>View a user’s broadcasting configuration, including Extension configurations.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-stream-markers\" target=\"_blank\">Get Stream Markers</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-user-extensions\" target=\"_blank\">Get User Extensions</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-user-active-extensions\" target=\"_blank\">Get User Active Extensions</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 317,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 50,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage the block list of a user.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#block-user\" target=\"_blank\">Block User</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#unblock-user\" target=\"_blank\">Unblock User</a>"
+            },
+            "old": {
+                "description": "<p>Manage the block list of a user.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#block-user\" target=\"_blank\">Block User</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#unblock-user\" target=\"_blank\">Unblock User</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 316,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 49,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View the block list of a user.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-user-block-list\" target=\"_blank\">Get User Block List</a>"
+            },
+            "old": {
+                "description": "<p>View the block list of a user.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-user-block-list\" target=\"_blank\">Get User Block List</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 315,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 48,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Deprecated. Was previously used for “Create User Follows” and “Delete User Follows.” See <a href=\"https://discuss.dev.twitch.tv/t/deprecation-of-create-and-delete-follows-api-endpoints/32351\" target=\"_blank\">Deprecation of Create and Delete Follows API Endpoints</a>."
+            },
+            "old": {
+                "description": "<p>Deprecated. Was previously used for “Create User Follows” and “Delete User Follows.” See <a href=\"https://discuss.dev.twitch.tv/t/deprecation-of-create-and-delete-follows-api-endpoints/32351\" target=\"_blank\">Deprecation of Create and Delete Follows API Endpoints</a>.</p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 314,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 47,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage a user object.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-user\" target=\"_blank\">Update User</a>"
+            },
+            "old": {
+                "description": "<p>Manage a user object.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-user\" target=\"_blank\">Update User</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 313,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 46,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage a broadcaster’s shoutouts.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-a-shoutout\" target=\"_blank\">Send a Shoutout</a>"
+            },
+            "old": {
+                "description": "<p>Manage a broadcaster’s shoutouts.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-a-shoutout\" target=\"_blank\">Send a Shoutout</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 312,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 45,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View a broadcaster’s shoutouts.\n<br>\n<br>"
+            },
+            "old": {
+                "description": "<p>View a broadcaster’s shoutouts.\n<br>\n<br></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 311,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 44,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage a broadcaster’s Shield Mode status.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-shield-mode-status\" target=\"_blank\">Update Shield Mode Status</a>"
+            },
+            "old": {
+                "description": "<p>Manage a broadcaster’s Shield Mode status.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-shield-mode-status\" target=\"_blank\">Update Shield Mode Status</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 310,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 43,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View a broadcaster’s Shield Mode status.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-shield-mode-status\" target=\"_blank\">Get Shield Mode Status</a>"
+            },
+            "old": {
+                "description": "<p>View a broadcaster’s Shield Mode status.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-shield-mode-status\" target=\"_blank\">Get Shield Mode Status</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 309,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 42,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage Guest Star for channels where you are a Guest Star moderator.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-guest-star-invite\" target=\"_blank\">Send Guest Star Invite</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-guest-star-invite\" target=\"_blank\">Delete Guest Star Invite</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#assign-guest-star-slot\" target=\"_blank\">Assign Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-guest-star-slot\" target=\"_blank\">Update Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-guest-star-slot\" target=\"_blank\">Delete Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-guest-star-slot-settings\" target=\"_blank\">Update Guest Star Slot Settings</a>"
+            },
+            "old": {
+                "description": "<p>Manage Guest Star for channels where you are a Guest Star moderator.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-guest-star-invite\" target=\"_blank\">Send Guest Star Invite</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-guest-star-invite\" target=\"_blank\">Delete Guest Star Invite</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#assign-guest-star-slot\" target=\"_blank\">Assign Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-guest-star-slot\" target=\"_blank\">Update Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-guest-star-slot\" target=\"_blank\">Delete Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-guest-star-slot-settings\" target=\"_blank\">Update Guest Star Slot Settings</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 308,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 41,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Read Guest Star details for channels where you are a Guest Star moderator.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-channel-guest-star-settings\" target=\"_blank\">Get Channel Guest Star Settings</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-guest-star-session\" target=\"_blank\">Get Guest Star Session</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-guest-star-invites\" target=\"_blank\">Get Guest Star Invites</a>"
+            },
+            "old": {
+                "description": "<p>Read Guest Star details for channels where you are a Guest Star moderator.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-channel-guest-star-settings\" target=\"_blank\">Get Channel Guest Star Settings</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-guest-star-session\" target=\"_blank\">Get Guest Star Session</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-guest-star-invites\" target=\"_blank\">Get Guest Star Invites</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 307,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 40,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Read the followers of a broadcaster.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-channel-followers\" target=\"_blank\">Get Channel Followers</a>"
+            },
+            "old": {
+                "description": "<p>Read the followers of a broadcaster.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-channel-followers\" target=\"_blank\">Get Channel Followers</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 306,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 39,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View the chatters in a broadcaster’s chat room.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-chatters\" target=\"_blank\">Get Chatters</a>"
+            },
+            "old": {
+                "description": "<p>View the chatters in a broadcaster’s chat room.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-chatters\" target=\"_blank\">Get Chatters</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 305,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 38,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage a broadcaster’s chat room settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-chat-settings\" target=\"_blank\">Update Chat Settings</a>"
+            },
+            "old": {
+                "description": "<p>Manage a broadcaster’s chat room settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-chat-settings\" target=\"_blank\">Update Chat Settings</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 304,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 37,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View a broadcaster’s chat room settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-chat-settings\" target=\"_blank\">Get Chat Settings</a>"
+            },
+            "old": {
+                "description": "<p>View a broadcaster’s chat room settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-chat-settings\" target=\"_blank\">Get Chat Settings</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 303,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 36,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Delete chat messages in channels where you have the moderator role\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-chat-messages\" target=\"_blank\">Delete Chat Messages</a>"
+            },
+            "old": {
+                "description": "<p>Delete chat messages in channels where you have the moderator role\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-chat-messages\" target=\"_blank\">Delete Chat Messages</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 302,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 35,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage a broadcaster’s list of blocked terms.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#add-blocked-term\" target=\"_blank\">Add Blocked Term</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#remove-blocked-term\" target=\"_blank\">Remove Blocked Term</a>"
+            },
+            "old": {
+                "description": "<p>Manage a broadcaster’s list of blocked terms.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#add-blocked-term\" target=\"_blank\">Add Blocked Term</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#remove-blocked-term\" target=\"_blank\">Remove Blocked Term</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 301,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 34,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View a broadcaster’s list of blocked terms.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-blocked-terms\" target=\"_blank\">Get Blocked Terms</a>"
+            },
+            "old": {
+                "description": "<p>View a broadcaster’s list of blocked terms.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-blocked-terms\" target=\"_blank\">Get Blocked Terms</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 300,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 33,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Ban and unban users.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#ban-user\" target=\"_blank\">Ban users</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#unban-user\" target=\"_blank\">Unban user</a>"
+            },
+            "old": {
+                "description": "<p>Ban and unban users.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#ban-user\" target=\"_blank\">Ban users</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#unban-user\" target=\"_blank\">Unban user</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 299,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 32,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage a broadcaster’s AutoMod settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-automod-settings\" target=\"_blank\">Update AutoMod Settings</a>"
+            },
+            "old": {
+                "description": "<p>Manage a broadcaster’s AutoMod settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-automod-settings\" target=\"_blank\">Update AutoMod Settings</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 298,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 31,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View a broadcaster’s AutoMod settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-automod-settings\" target=\"_blank\">Get AutoMod Settings</a>"
+            },
+            "old": {
+                "description": "<p>View a broadcaster’s AutoMod settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-automod-settings\" target=\"_blank\">Get AutoMod Settings</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 297,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 30,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage messages held for review by AutoMod in channels where you are a moderator.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#manage-held-automod-messages\" target=\"_blank\">Manage Held AutoMod Messages</a>"
+            },
+            "old": {
+                "description": "<p>Manage messages held for review by AutoMod in channels where you are a moderator.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#manage-held-automod-messages\" target=\"_blank\">Manage Held AutoMod Messages</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 296,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 29,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Send announcements in channels where you have the moderator role.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-chat-announcement\" target=\"_blank\">Send Chat Announcement</a>"
+            },
+            "old": {
+                "description": "<p>Send announcements in channels where you have the moderator role.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-chat-announcement\" target=\"_blank\">Send Chat Announcement</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 295,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 28,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View a channel’s moderation data including Moderators, Bans, Timeouts, and Automod settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#check-automod-status\" target=\"_blank\">Check AutoMod Status</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-banned-users\" target=\"_blank\">Get Banned Users</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-moderators\" target=\"_blank\">Get Moderators</a>"
+            },
+            "old": {
+                "description": "<p>View a channel’s moderation data including Moderators, Bans, Timeouts, and Automod settings.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#check-automod-status\" target=\"_blank\">Check AutoMod Status</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-banned-users\" target=\"_blank\">Get Banned Users</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-moderators\" target=\"_blank\">Get Moderators</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 294,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 27,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage Clips for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-clip\" target=\"_blank\">Create Clip</a>"
+            },
+            "old": {
+                "description": "<p>Manage Clips for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-clip\" target=\"_blank\">Create Clip</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 293,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 26,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Add or remove the VIP role from users in your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-vips\" target=\"_blank\">Get VIPs</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#add-channel-vip\" target=\"_blank\">Add Channel VIP</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#remove-channel-vip\" target=\"_blank\">Remove Channel VIP</a>"
+            },
+            "old": {
+                "description": "<p>Add or remove the VIP role from users in your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-vips\" target=\"_blank\">Get VIPs</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#add-channel-vip\" target=\"_blank\">Add Channel VIP</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#remove-channel-vip\" target=\"_blank\">Remove Channel VIP</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 292,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 25,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Read the list of VIPs in your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-vips\" target=\"_blank\">Get VIPs</a>"
+            },
+            "old": {
+                "description": "<p>Read the list of VIPs in your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-vips\" target=\"_blank\">Get VIPs</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 291,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 24,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage a channel’s videos, including deleting videos.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-videos\" target=\"_blank\">Delete Videos</a>"
+            },
+            "old": {
+                "description": "<p>Manage a channel’s videos, including deleting videos.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-videos\" target=\"_blank\">Delete Videos</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 290,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 23,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View a list of all subscribers to a channel and check if a user is subscribed to a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-broadcaster-subscriptions\" target=\"_blank\">Get Broadcaster Subscriptions</a>"
+            },
+            "old": {
+                "description": "<p>View a list of all subscribers to a channel and check if a user is subscribed to a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-broadcaster-subscriptions\" target=\"_blank\">Get Broadcaster Subscriptions</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 289,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 22,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View an authorized user’s stream key.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-stream-key\" target=\"_blank\">Get Stream Key</a>"
+            },
+            "old": {
+                "description": "<p>View an authorized user’s stream key.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-stream-key\" target=\"_blank\">Get Stream Key</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 288,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 21,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage a channel’s stream schedule.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-channel-stream-schedule\" target=\"_blank\">Update Channel Stream Schedule</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-channel-stream-schedule-segment\" target=\"_blank\">Create Channel Stream Schedule Segment</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-channel-stream-schedule-segment\" target=\"_blank\">Update Channel Stream Schedule Segment</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-channel-stream-schedule-segment\" target=\"_blank\">Delete Channel Stream Schedule Segment</a>"
+            },
+            "old": {
+                "description": "<p>Manage a channel’s stream schedule.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-channel-stream-schedule\" target=\"_blank\">Update Channel Stream Schedule</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-channel-stream-schedule-segment\" target=\"_blank\">Create Channel Stream Schedule Segment</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-channel-stream-schedule-segment\" target=\"_blank\">Update Channel Stream Schedule Segment</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-channel-stream-schedule-segment\" target=\"_blank\">Delete Channel Stream Schedule Segment</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 287,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 20,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage Channel Points custom rewards and their redemptions on a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-custom-rewards\" target=\"_blank\">Create Custom Rewards</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-custom-reward\" target=\"_blank\">Delete Custom Reward</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-custom-reward\" target=\"_blank\">Update Custom Reward</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-redemption-status\" target=\"_blank\">Update Redemption Status</a>"
+            },
+            "old": {
+                "description": "<p>Manage Channel Points custom rewards and their redemptions on a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-custom-rewards\" target=\"_blank\">Create Custom Rewards</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-custom-reward\" target=\"_blank\">Delete Custom Reward</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-custom-reward\" target=\"_blank\">Update Custom Reward</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-redemption-status\" target=\"_blank\">Update Redemption Status</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 286,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 19,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View Channel Points custom rewards and their redemptions on a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-custom-reward\" target=\"_blank\">Get Custom Reward</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-custom-reward-redemption\" target=\"_blank\">Get Custom Reward Redemption</a>"
+            },
+            "old": {
+                "description": "<p>View Channel Points custom rewards and their redemptions on a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-custom-reward\" target=\"_blank\">Get Custom Reward</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-custom-reward-redemption\" target=\"_blank\">Get Custom Reward Redemption</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 285,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 18,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage a channel raiding another channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#start-a-raid\" target=\"_blank\">Start a raid</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#cancel-a-raid\" target=\"_blank\">Cancel a raid</a>"
+            },
+            "old": {
+                "description": "<p>Manage a channel raiding another channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#start-a-raid\" target=\"_blank\">Start a raid</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#cancel-a-raid\" target=\"_blank\">Cancel a raid</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 284,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 17,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage of channel’s Channel Points Predictions\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-prediction\" target=\"_blank\">Create Channel Points Prediction</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#end-prediction\" target=\"_blank\">End Channel Points Prediction</a>"
+            },
+            "old": {
+                "description": "<p>Manage of channel’s Channel Points Predictions\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-prediction\" target=\"_blank\">Create Channel Points Prediction</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#end-prediction\" target=\"_blank\">End Channel Points Prediction</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 283,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 16,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View a channel’s Channel Points Predictions.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-predictions\" target=\"_blank\">Get Channel Points Predictions</a>"
+            },
+            "old": {
+                "description": "<p>View a channel’s Channel Points Predictions.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-predictions\" target=\"_blank\">Get Channel Points Predictions</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 282,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 15,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage a channel’s polls.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-poll\" target=\"_blank\">Create Poll</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#end-poll\" target=\"_blank\">End Poll</a>"
+            },
+            "old": {
+                "description": "<p>Manage a channel’s polls.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-poll\" target=\"_blank\">Create Poll</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#end-poll\" target=\"_blank\">End Poll</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 281,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 14,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View a channel’s polls.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-polls\" target=\"_blank\">Get Polls</a>"
+            },
+            "old": {
+                "description": "<p>View a channel’s polls.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-polls\" target=\"_blank\">Get Polls</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 280,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 13,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Add or remove the moderator role from users in your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#add-channel-moderator\" target=\"_blank\">Add Channel Moderator</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#remove-channel-moderator\" target=\"_blank\">Remove Channel Moderator</a>"
+            },
+            "old": {
+                "description": "<p>Add or remove the moderator role from users in your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#add-channel-moderator\" target=\"_blank\">Add Channel Moderator</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#remove-channel-moderator\" target=\"_blank\">Remove Channel Moderator</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 279,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 12,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View Hype Train information for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-hype-train-events\" target=\"_blank\">Get Hype Train Events</a>"
+            },
+            "old": {
+                "description": "<p>View Hype Train information for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-hype-train-events\" target=\"_blank\">Get Hype Train Events</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 278,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 11,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage Guest Star for your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-channel-guest-star-settings\" target=\"_blank\">Update Channel Guest Star Settings</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-guest-star-session\" target=\"_blank\">Create Guest Star Session</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#end-guest-star-session\" target=\"_blank\">End Guest Star Session</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-guest-star-invite\" target=\"_blank\">Send Guest Star Invite</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-guest-star-invite\" target=\"_blank\">Delete Guest Star Invite</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#assign-guest-star-slot\" target=\"_blank\">Assign Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-guest-star-slot\" target=\"_blank\">Update Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-guest-star-slot\" target=\"_blank\">Delete Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-guest-star-slot-settings\" target=\"_blank\">Update Guest Star Slot Settings</a>"
+            },
+            "old": {
+                "description": "<p>Manage Guest Star for your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-channel-guest-star-settings\" target=\"_blank\">Update Channel Guest Star Settings</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-guest-star-session\" target=\"_blank\">Create Guest Star Session</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#end-guest-star-session\" target=\"_blank\">End Guest Star Session</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#send-guest-star-invite\" target=\"_blank\">Send Guest Star Invite</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-guest-star-invite\" target=\"_blank\">Delete Guest Star Invite</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#assign-guest-star-slot\" target=\"_blank\">Assign Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-guest-star-slot\" target=\"_blank\">Update Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#delete-guest-star-slot\" target=\"_blank\">Delete Guest Star Slot</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-guest-star-slot-settings\" target=\"_blank\">Update Guest Star Slot Settings</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 277,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 10,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Read Guest Star details for your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-channel-guest-star-settings\" target=\"_blank\">Get Channel Guest Star Settings</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-guest-star-session\" target=\"_blank\">Get Guest Star Session</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-guest-star-invites\" target=\"_blank\">Get Guest Star Invites</a>"
+            },
+            "old": {
+                "description": "<p>Read Guest Star details for your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-channel-guest-star-settings\" target=\"_blank\">Get Channel Guest Star Settings</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-guest-star-session\" target=\"_blank\">Get Guest Star Session</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-guest-star-invites\" target=\"_blank\">Get Guest Star Invites</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 276,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 9,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View Creator Goals for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-creator-goals\" target=\"_blank\">Get Creator Goals</a>"
+            },
+            "old": {
+                "description": "<p>View Creator Goals for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-creator-goals\" target=\"_blank\">Get Creator Goals</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 275,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 8,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage a channel’s Extension configuration, including activating Extensions.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-user-active-extensions\" target=\"_blank\">Get User Active Extensions</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-user-extensions\" target=\"_blank\">Update User Extensions</a>"
+            },
+            "old": {
+                "description": "<p>Manage a channel’s Extension configuration, including activating Extensions.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-user-active-extensions\" target=\"_blank\">Get User Active Extensions</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#update-user-extensions\" target=\"_blank\">Update User Extensions</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 274,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 7,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View a list of users with the editor role for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-channel-editors\" target=\"_blank\">Get Channel Editors</a>"
+            },
+            "old": {
+                "description": "<p>View a list of users with the editor role for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-channel-editors\" target=\"_blank\">Get Channel Editors</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 273,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 6,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Run commercials on a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#start-commercial\" target=\"_blank\">Start Commercial</a>"
+            },
+            "old": {
+                "description": "<p>Run commercials on a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#start-commercial\" target=\"_blank\">Start Commercial</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 272,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 5,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Read charity campaign details and user donations on your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-charity-campaign\" target=\"_blank\">Get Charity Campaign</a>"
+            },
+            "old": {
+                "description": "<p>Read charity campaign details and user donations on your channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-charity-campaign\" target=\"_blank\">Get Charity Campaign</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 271,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 4,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "Manage a channel’s broadcast configuration, including updating channel configuration and managing stream markers and stream tags.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#modify-channel-information\" target=\"_blank\">Modify Channel Information</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-stream-marker\" target=\"_blank\">Create Stream Marker</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#replace-stream-tags\" target=\"_blank\">Replace Stream Tags</a>"
+            },
+            "old": {
+                "description": "<p>Manage a channel’s broadcast configuration, including updating channel configuration and managing stream markers and stream tags.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#modify-channel-information\" target=\"_blank\">Modify Channel Information</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#create-stream-marker\" target=\"_blank\">Create Stream Marker</a>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#replace-stream-tags\" target=\"_blank\">Replace Stream Tags</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 270,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 3,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View Bits information for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-bits-leaderboard\" target=\"_blank\">Get Bits Leaderboard</a>"
+            },
+            "old": {
+                "description": "<p>View Bits information for a channel.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-bits-leaderboard\" target=\"_blank\">Get Bits Leaderboard</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 269,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 2,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View analytics data for the games owned by the authenticated account.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-game-analytics\" target=\"_blank\">Get Game Analytics</a>"
+            },
+            "old": {
+                "description": "<p>View analytics data for the games owned by the authenticated account.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-game-analytics\" target=\"_blank\">Get Game Analytics</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
+        "id": 268,
+        "log_name": "scopes",
+        "description": "updated",
+        "subject_type": "App\\Models\\Scope",
+        "subject_id": 1,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "description": "View analytics data for the Twitch Extensions owned by the authenticated account.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-extension-analytics\" target=\"_blank\">Get Extension Analytics</a>"
+            },
+            "old": {
+                "description": "<p>View analytics data for the Twitch Extensions owned by the authenticated account.\n<br>\n<br><a href=\"https://dev.twitch.tv/docs/api/reference#get-extension-analytics\" target=\"_blank\">Get Extension Analytics</a></p>"
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T09:00:01.000000Z"
+    },
+    {
         "id": 267,
         "log_name": "events",
         "description": "created",

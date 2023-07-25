@@ -33,7 +33,9 @@
     "Create Custom Rewards": [
         "channel:manage:redemptions"
     ],
-    "Create EventSub Subscription": [],
+    "Create EventSub Subscription": [
+        "channel:read:subscriptions"
+    ],
     "Create Extension Secret": [],
     "Create Guest Star Session": [],
     "Create Poll": [

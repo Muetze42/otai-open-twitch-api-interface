@@ -32,7 +32,7 @@ The project is new and is in a kind of open beta.
 | Create Channel Stream Schedule Segment | `/schedule/segment`                          |                     `channel:manage:schedule`                      |
 | Create Clip                            | `/clips`                                     |                            `clips:edit`                            |
 | Create Custom Rewards                  | `/channel_points/custom_rewards`             |                    `channel:manage:redemptions`                    |
-| Create EventSub Subscription           | `/eventsub/subscriptions`                    |                                                                    |
+| Create EventSub Subscription           | `/eventsub/subscriptions`                    |                    `channel:read:subscriptions`                    |
 | Create Guest Star Session              | `/guest_star/session`                        |                                                                    |
 | Create Poll                            | `/polls`                                     |                       `channel:manage:polls`                       |
 | Create Prediction                      | `/predictions`                               |                    `channel:manage:predictions`                    |
