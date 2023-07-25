@@ -1,5 +1,2142 @@
 [
     {
+        "id": 267,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 50,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 50,
+                "name": "user.update",
+                "title": "User Update",
+                "version": "1",
+                "description": "A user has updated their account.",
+                "instruction": "The <code class=\"highlighter-rouge\">user.update</code> subscription type sends a notification when user updates their account.",
+                "authorization": "No authorization required. If you have the <code class=\"highlighter-rouge\">user:read:email</code> scope, the notification will include <code class=\"highlighter-rouge\">email</code> field.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">user.update</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#user-update-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the user ID for the user you want update notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 266,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 49,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 49,
+                "name": "user.authorization.revoke",
+                "title": "User Authorization Revoke",
+                "version": "1",
+                "description": "A user’s authorization has been revoked for your client id.",
+                "instruction": "<strong>NOTE</strong> This subscription type is only supported by webhooks, and cannot be used with WebSockets.",
+                "authorization": "Provided <code class=\"highlighter-rouge\">client_id</code> must match the client id in the application access token.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">user.authorization.revoke</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#user-authorization-revoke-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the client ID of the application you want to get user authorization revoke notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 265,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 48,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 48,
+                "name": "user.authorization.grant",
+                "title": "User Authorization Grant",
+                "version": "1",
+                "description": "A user’s authorization has been granted to your client id.",
+                "instruction": "<strong>NOTE</strong> This subscription type is only supported by webhooks, and cannot be used with WebSockets.",
+                "authorization": "Provided <code class=\"highlighter-rouge\">client_id</code> must match the client id in the application access token.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">user.authorization.grant</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#user-authorization-grant-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the client ID of the application you want to get user authorization grant notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 264,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 47,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 47,
+                "name": "stream.offline",
+                "title": "Stream Offline",
+                "version": "1",
+                "description": "The specified broadcaster stops a stream.",
+                "instruction": "The <code class=\"highlighter-rouge\">stream.offline</code> subscription type sends a notification when the specified broadcaster stops a stream.",
+                "authorization": "No authorization required.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">stream.offline</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#stream-offline-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to get updates for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 263,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 46,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 46,
+                "name": "stream.online",
+                "title": "Stream Online",
+                "version": "1",
+                "description": "The specified broadcaster starts a stream.",
+                "instruction": "The <code class=\"highlighter-rouge\">stream.online</code> subscription type sends a notification when the specified broadcaster starts a stream.",
+                "authorization": "No authorization required.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">stream.online</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#stream-online-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to get updates for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 262,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 45,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 45,
+                "name": "channel.shoutout.receive",
+                "title": "Shoutout Received",
+                "version": "1",
+                "description": "Sends a notification when the specified broadcaster receives a Shoutout.",
+                "instruction": "<strong>NOTE</strong> Sent only if Twitch posts the Shoutout to the broadcaster’s activity feed.",
+                "authorization": "The following table describes the JSON object that you pass in the body of the request when <a href=\"https://dev.twitch.tv/docs/api/reference#create-eventsub-subscription\" target=\"_blank\">creating the subscription</a>.",
+                "request_body": null,
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 261,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 44,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 44,
+                "name": "channel.shoutout.create",
+                "title": "Shoutout Create",
+                "version": "1",
+                "description": "Sends a notification when the specified broadcaster sends a Shoutout.",
+                "instruction": "Sends a notification when the specified broadcaster sends a Shoutout.",
+                "authorization": "The following table describes the JSON object that you pass in the body of the request when <a href=\"https://dev.twitch.tv/docs/api/reference#create-eventsub-subscription\" target=\"_blank\">creating the subscription</a>.",
+                "request_body": null,
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 260,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 43,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 43,
+                "name": "channel.shield_mode.end",
+                "title": "Shield Mode End",
+                "version": "1",
+                "description": "Sends a notification when the broadcaster deactivates Shield Mode.",
+                "instruction": "This event informs the subscriber that the broadcaster’s moderation settings were changed back to the broadcaster’s previous moderation settings.",
+                "authorization": "The following table describes the JSON object that you pass in the body of the request when <a href=\"https://dev.twitch.tv/docs/api/reference#create-eventsub-subscription\" target=\"_blank\">creating the subscription</a>.",
+                "request_body": null,
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 259,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 42,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 42,
+                "name": "channel.shield_mode.begin",
+                "title": "Shield Mode Begin",
+                "version": "1",
+                "description": "Sends a notification when the broadcaster activates Shield Mode.",
+                "instruction": "This event informs the subscriber that the broadcaster’s moderation settings were changed based on the broadcaster’s Shield Mode configuration settings.",
+                "authorization": "The following table describes the JSON object that you pass in the body of the request when <a href=\"https://dev.twitch.tv/docs/api/reference#create-eventsub-subscription\" target=\"_blank\">creating the subscription</a>.",
+                "request_body": null,
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 258,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 41,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 41,
+                "name": "channel.hype_train.end",
+                "title": "Hype Train End",
+                "version": "1",
+                "description": "A Hype Train ends on the specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.hype_train.end</code> subscription type sends a notification when a Hype Train ends on the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:hype_train</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.hype_train.end</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#hype-train-end-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to Hype Train end notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 257,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 40,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 40,
+                "name": "channel.hype_train.progress",
+                "title": "Hype Train Progress",
+                "version": "1",
+                "description": "A Hype Train makes progress on the specified channel.",
+                "instruction": "After a Hype Train begins, any additional cheers or subscriptions on the channel will cause <code class=\"highlighter-rouge\">channel.hype_train.progress</code> notifications to be sent. When the Hype Train is over, <code class=\"highlighter-rouge\">channel.hype_train.end</code> is emitted.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:hype_train</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.hype_train.progress</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#hype-train-progress-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to Hype Train progress notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 256,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 39,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 39,
+                "name": "channel.hype_train.begin",
+                "title": "Hype Train Begin",
+                "version": "1",
+                "description": "A Hype Train begins on the specified channel.",
+                "instruction": "After the Hype Train begins, any additional cheers or subscriptions on the channel will cause <code class=\"highlighter-rouge\">channel.hype_train.progress</code> notifications to be sent. When the Hype Train is over, <code class=\"highlighter-rouge\">channel.hype_train.end</code> is emitted.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:hype_train</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.hype_train.begin</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#hype-train-begin-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to Hype Train begin notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 255,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 38,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 38,
+                "name": "channel.goal.end",
+                "title": "Goal End",
+                "version": "1",
+                "description": "Get notified when a broadcaster ends a goal.",
+                "instruction": "Notice that the event object also includes the <code class=\"highlighter-rouge\">is_achieved</code> and <code class=\"highlighter-rouge\">ended_at</code> fields, which the begin and progress events don’t include.",
+                "authorization": "Requires a user OAuth access token with scope set to <strong>channel:read:goals</strong>.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.goal.end</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": "<a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#goals-condition\" target=\"_blank\">Condition</a>",
+                        "required": true,
+                        "instruction": "Set the <strong>Condition</strong> object’s <code class=\"highlighter-rouge\">broadcaster_user_id</code> field to the ID of the broadcaster whose goals you want to get notified about."
+                    },
+                    "transport": {
+                        "type": "<a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">Transport</a>",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 254,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 37,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 37,
+                "name": "channel.goal.progress",
+                "title": "Goal Progress",
+                "version": "1",
+                "description": "Get notified when progress (either positive or negative) is made towards a broadcaster’s goal.",
+                "instruction": "<strong>NOTE:</strong> It’s possible to receive Progress events before receiving the Begin event.",
+                "authorization": "Requires a user OAuth access token with scope set to <strong>channel:read:goals</strong>.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.goal.progress</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": "<a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#goals-condition\" target=\"_blank\">Condition</a>",
+                        "required": true,
+                        "instruction": "Set the <strong>Condition</strong> object’s <code class=\"highlighter-rouge\">broadcaster_user_id</code> field to the ID of the broadcaster whose goals you want to get notified about."
+                    },
+                    "transport": {
+                        "type": "<a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">Transport</a>",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 253,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 36,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 36,
+                "name": "channel.goal.begin",
+                "title": "Goal Begin",
+                "version": "1",
+                "description": "Get notified when a broadcaster begins a goal.",
+                "instruction": "<strong>NOTE:</strong> It’s possible to receive the Begin event after receiving Progress events.",
+                "authorization": "Requires a user OAuth access token with scope set to <strong>channel:read:goals</strong>.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.goal.begin</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": "<a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#goals-condition\" target=\"_blank\">Condition</a>",
+                        "required": true,
+                        "instruction": "Set the <strong>Condition</strong> object’s <code class=\"highlighter-rouge\">broadcaster_user_id</code> field to the ID of the broadcaster whose goals you want to get notified about."
+                    },
+                    "transport": {
+                        "type": "<a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">Transport</a>",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 252,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 35,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 35,
+                "name": "extension.bits_transaction.create",
+                "title": "Extension Bits Transaction Create",
+                "version": "1",
+                "description": "A Bits transaction occurred for a specified Twitch Extension.",
+                "instruction": "<strong>NOTE</strong> This subscription type is only supported by webhooks, and cannot be used with WebSockets.",
+                "authorization": "The OAuth token client ID must match the Extension client ID.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">extension.bits_transaction.create</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": "<a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#extension-bits-transaction-create-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the Extension client ID you want to receive Bits transaction notifications for."
+                    },
+                    "transport": {
+                        "type": "<a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 251,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 34,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 34,
+                "name": "drop.entitlement.grant",
+                "title": "Drop Entitlement Grant",
+                "version": "1",
+                "description": "An entitlement for a Drop is granted to a user.",
+                "instruction": "<strong>NOTE</strong> This subscription type is only supported by webhooks, and cannot be used with WebSockets.",
+                "authorization": "App access token required. The client ID associated with the access token must be owned by a user who is part of the specified organization.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">drop.entitlement.grant</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": "<a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#drop-entitlement-grant-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the <code class=\"highlighter-rouge\">organization_id</code> to subscribe to all drop entitlement grant notifications for that organization."
+                    },
+                    "transport": {
+                        "type": "<a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    },
+                    "is_batching_enabled": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "Needs to be true for this subscription type."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 250,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 33,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 33,
+                "name": "channel.charity_campaign.stop",
+                "title": "Charity Campaign Stop",
+                "version": "1",
+                "description": "Sends an event notification when the broadcaster stops a charity campaign.",
+                "instruction": "Sends a notification when the broadcaster stops a charity campaign.",
+                "authorization": "The following table describes the JSON object that you pass in the body of the request when <a href=\"https://dev.twitch.tv/docs/api/reference#create-eventsub-subscription\" target=\"_blank\">creating the subscription</a>.",
+                "request_body": null,
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 249,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 32,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 32,
+                "name": "channel.charity_campaign.progress",
+                "title": "Charity Campaign Progress",
+                "version": "1",
+                "description": "Sends an event notification when progress is made towards the campaign’s goal or when the broadcaster changes the fundraising goal.",
+                "instruction": "To get donation information, subscribe to the <a href=\"https://dev.twitch.tv#channelcharity_campaigndonate\" target=\"_blank\">channel.charity_campaign.donate</a> event.",
+                "authorization": "The following table describes the JSON object that you pass in the body of the request when <a href=\"https://dev.twitch.tv/docs/api/reference#create-eventsub-subscription\" target=\"_blank\">creating the subscription</a>.",
+                "request_body": null,
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 248,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 31,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 31,
+                "name": "channel.charity_campaign.start",
+                "title": "Charity Campaign Start",
+                "version": "1",
+                "description": "Sends an event notification when the broadcaster starts a charity campaign.",
+                "instruction": "It’s possible to receive this event after the <a href=\"https://dev.twitch.tv#channelcharity_campaignprogress\" target=\"_blank\">Progress</a> event.",
+                "authorization": "The following table describes the JSON object that you pass in the body of the request when <a href=\"https://dev.twitch.tv/docs/api/reference#create-eventsub-subscription\" target=\"_blank\">creating the subscription</a>.",
+                "request_body": null,
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 247,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 30,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 30,
+                "name": "channel.charity_campaign.donate",
+                "title": "Charity Donation",
+                "version": "1",
+                "description": "Sends an event notification when a user donates to the broadcaster’s charity campaign.",
+                "instruction": "Sends a notification when a user donates to the broadcaster’s charity campaign.",
+                "authorization": "The following table describes the JSON object that you pass in the body of the request when you <a href=\"https://dev.twitch.tv/docs/api/reference#create-eventsub-subscription\" target=\"_blank\">create the subscription</a>.",
+                "request_body": null,
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 246,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 29,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 29,
+                "name": "channel.prediction.end",
+                "title": "Channel Prediction End",
+                "version": "1",
+                "description": "A Prediction ended on a specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.prediction.end</code> subscription type sends a notification when a Prediction ends on the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:predictions</code> or <code class=\"highlighter-rouge\">channel:manage:predictions</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.prediction.end</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-prediction-end-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive prediction lock notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 245,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 28,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 28,
+                "name": "channel.prediction.lock",
+                "title": "Channel Prediction Lock",
+                "version": "1",
+                "description": "A Prediction was locked on a specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.prediction.lock</code> subscription type sends a notification when a Prediction is locked on the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:predictions</code> or <code class=\"highlighter-rouge\">channel:manage:predictions</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.prediction.lock</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-prediction-lock-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive prediction lock notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 244,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 27,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 27,
+                "name": "channel.prediction.progress",
+                "title": "Channel Prediction Progress",
+                "version": "1",
+                "description": "Users participated in a Prediction on a specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.prediction.progress</code> subscription type sends a notification when users participate in a Prediction on the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:predictions</code> or <code class=\"highlighter-rouge\">channel:manage:predictions</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.prediction.progress</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-prediction-progress-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive prediction progress notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 243,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 26,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 26,
+                "name": "channel.prediction.begin",
+                "title": "Channel Prediction Begin",
+                "version": "1",
+                "description": "A Prediction started on a specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.prediction.begin</code> subscription type sends a notification when a Prediction begins on the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:predictions</code> or <code class=\"highlighter-rouge\">channel:manage:predictions</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.prediction.begin</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-prediction-begin-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive prediction begin notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 242,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 25,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 25,
+                "name": "channel.poll.end",
+                "title": "Channel Poll End",
+                "version": "1",
+                "description": "A poll ended on a specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.poll.end</code> subscription type sends a notification when a poll ends on the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:polls</code> or <code class=\"highlighter-rouge\">channel:manage:polls</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.poll.end</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-poll-end-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive poll end notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 241,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 24,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 24,
+                "name": "channel.poll.progress",
+                "title": "Channel Poll Progress",
+                "version": "1",
+                "description": "Users respond to a poll on a specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.poll.progress</code> subscription type sends a notification when users respond to a poll on the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:polls</code> or <code class=\"highlighter-rouge\">channel:manage:polls</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.poll.progress</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-poll-progress-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive poll progress notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 240,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 23,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 23,
+                "name": "channel.poll.begin",
+                "title": "Channel Poll Begin",
+                "version": "1",
+                "description": "A poll started on a specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.poll.begin</code> subscription type sends a notification when a poll begins on the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:polls</code> or <code class=\"highlighter-rouge\">channel:manage:polls</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.poll.begin</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-poll-begin-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive poll begin notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 239,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 22,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 22,
+                "name": "channel.channel_points_custom_reward_redemption.update",
+                "title": "Channel Points Custom Reward Redemption Update",
+                "version": "1",
+                "description": "A redemption of a channel points custom reward has been updated for the specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.channel_points_custom_reward_redemption.update</code> subscription type sends a notification when a redemption of a channel points custom reward has been updated for the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:redemptions</code> or <code class=\"highlighter-rouge\">channel:manage:redemptions</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.channel_points_custom_reward_redemption.update</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-points-custom-reward-redemption-update-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive channel points custom reward redemption update notifications for. You can optionally pass in a reward id to only receive notifications for a specific reward."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 238,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 21,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 21,
+                "name": "channel.channel_points_custom_reward_redemption.add",
+                "title": "Channel Points Custom Reward Redemption Add",
+                "version": "1",
+                "description": "A viewer has redeemed a custom channel points reward on the specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.channel_points_custom_reward_redemption.add</code> subscription type sends a notification when a viewer has redeemed a custom channel points reward on the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:redemptions</code> or <code class=\"highlighter-rouge\">channel:manage:redemptions</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.channel_points_custom_reward_redemption.add</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-points-custom-reward-redemption-add-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive channel points custom reward redemption notifications for. You can optionally pass in a reward id to only receive notifications for a specific reward."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 237,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 20,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 20,
+                "name": "channel.channel_points_custom_reward.remove",
+                "title": "Channel Points Custom Reward Remove",
+                "version": "1",
+                "description": "A custom channel points reward has been removed from the specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.channel_points_custom_reward.remove</code> subscription type sends a notification when a custom channel points reward has been removed from the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:redemptions</code> or <code class=\"highlighter-rouge\">channel:manage:redemptions</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.channel_points_custom_reward.remove</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-points-custom-reward-remove-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive channel points custom reward remove notifications for. You can optionally pass in a reward ID to only receive notifications for a specific reward."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 236,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 19,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 19,
+                "name": "channel.channel_points_custom_reward.update",
+                "title": "Channel Points Custom Reward Update",
+                "version": "1",
+                "description": "A custom channel points reward has been updated for the specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.channel_points_custom_reward.update</code> subscription type sends a notification when a custom channel points reward has been updated for the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:redemptions</code> or <code class=\"highlighter-rouge\">channel:manage:redemptions</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.channel_points_custom_reward.update</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-points-custom-reward-update-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive channel points custom reward update notifications for. You can optionally pass in a reward id to only receive notifications for a specific reward."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 235,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 18,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 18,
+                "name": "channel.channel_points_custom_reward.add",
+                "title": "Channel Points Custom Reward Add",
+                "version": "1",
+                "description": "A custom channel points reward has been created for the specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.channel_points_custom_reward.add</code> subscription type sends a notification when a custom channel points reward has been created for the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:redemptions</code> or <code class=\"highlighter-rouge\">channel:manage:redemptions</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.channel_points_custom_reward.add</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-points-custom-reward-add-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive channel points customer reward add notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 234,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 17,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 17,
+                "name": "channel.guest_star_settings.update",
+                "title": "Channel Guest Star Settings Update",
+                "version": "beta",
+                "description": "The host preferences for Guest Star have been updated.",
+                "instruction": "<span class=\"pill pill-beta\">BETA</span> The <code class=\"highlighter-rouge\">channel.guest_star_settings.update</code> subscription type sends a notification when the host preferences for Guest Star have been updated.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:guest_star</code>, <code class=\"highlighter-rouge\">channel:manage:guest_star</code>, <code class=\"highlighter-rouge\">moderator:read:guest_star</code> or <code class=\"highlighter-rouge\">moderator:manage:guest_star</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "String",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.guest_star_settings.update</code>."
+                    },
+                    "version": {
+                        "type": "String",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">beta</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-guest-star-settings-update-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive Guest Star settings update notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 233,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 16,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 16,
+                "name": "channel.guest_star_slot.update",
+                "title": "Channel Guest Star Slot Update",
+                "version": "beta",
+                "description": "A slot setting has been updated in an active Guest Star session.",
+                "instruction": "<span class=\"pill pill-beta\">BETA</span> The <code class=\"highlighter-rouge\">channel.guest_star_slot.update</code> subscription type sends a notification when a slot setting is updated in an active Guest Star session.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:guest_star</code>, <code class=\"highlighter-rouge\">channel:manage:guest_star</code>, <code class=\"highlighter-rouge\">moderator:read:guest_star</code> or <code class=\"highlighter-rouge\">moderator:manage:guest_star</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "String",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.guest_star_slot.update</code>."
+                    },
+                    "version": {
+                        "type": "String",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">beta</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-guest-star-slot-update-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive Guest Star slot update notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 232,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 15,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 15,
+                "name": "channel.guest_star_guest.update",
+                "title": "Channel Guest Star Guest Update",
+                "version": "beta",
+                "description": "A guest has moved between interaction states in an active Guest Star session.",
+                "instruction": "<span class=\"pill pill-beta\">BETA</span> The <code class=\"highlighter-rouge\">channel.guest_star_guest.update</code> subscription type sends a notification when a guest moves between interaction states in an active Guest Star session.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:guest_star</code>, <code class=\"highlighter-rouge\">channel:manage:guest_star</code>, <code class=\"highlighter-rouge\">moderator:read:guest_star</code> or <code class=\"highlighter-rouge\">moderator:manage:guest_star</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "String",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.guest_star_guest.update</code>."
+                    },
+                    "version": {
+                        "type": "String",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">beta</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-guest-star-guest-update-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive Guest Star guest update notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 231,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 14,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 14,
+                "name": "channel.guest_star_session.end",
+                "title": "Channel Guest Star Session End",
+                "version": "beta",
+                "description": "A running Guest Star session has ended.",
+                "instruction": "<span class=\"pill pill-beta\">BETA</span> The <code class=\"highlighter-rouge\">channel.guest_star_session.end</code> subscription type sends a notification when a running Guest Star session is ended by the host, or automatically by the system.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:guest_star</code> or <code class=\"highlighter-rouge\">channel:manage:guest_star</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "String",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.guest_star_session.end</code>."
+                    },
+                    "version": {
+                        "type": "String",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">beta</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-guest-star-session-end-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive Guest Star session end notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 230,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 13,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 13,
+                "name": "channel.guest_star_session.begin",
+                "title": "Channel Guest Star Session Begin",
+                "version": "beta",
+                "description": "The host began a new Guest Star session.",
+                "instruction": "<span class=\"pill pill-beta\">BETA</span> The <code class=\"highlighter-rouge\">channel.guest_star_session.begin</code> subscription type sends a notification when the host begins a new Guest Star session.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:guest_star</code> or <code class=\"highlighter-rouge\">channel:manage:guest_star</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "String",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.guest_star_session.begin</code>."
+                    },
+                    "version": {
+                        "type": "String",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">beta</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-guest-star-session-begin-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive Guest Star session begin notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 229,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 12,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 12,
+                "name": "channel.moderator.remove",
+                "title": "Channel Moderator Remove",
+                "version": "1",
+                "description": "Moderator privileges were removed from a user on a specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.moderator.remove</code> subscription type sends a notification when a user has moderator privileges removed on a specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">moderation:read</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.moderator.remove</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-moderator-remove-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive moderator removal notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 228,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 11,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 11,
+                "name": "channel.moderator.add",
+                "title": "Channel Moderator Add",
+                "version": "1",
+                "description": "Moderator privileges were added to a user on a specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.moderator.add</code> subscription type sends a notification when a user is given moderator privileges on a specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">moderation:read</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.moderator.add</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-moderator-add-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive moderator addition notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 227,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 10,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 10,
+                "name": "channel.unban",
+                "title": "Channel Unban",
+                "version": "1",
+                "description": "A viewer is unbanned from the specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.unban</code> subscription type sends a notification when a viewer is unbanned from the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:moderate</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.unban</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-unban-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive unban notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 226,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 9,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 9,
+                "name": "channel.ban",
+                "title": "Channel Ban",
+                "version": "1",
+                "description": "A viewer is banned from the specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.ban</code> subscription type sends a notification when a viewer is timed out or banned from the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:moderate</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.ban</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-ban-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive ban notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 225,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 8,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 8,
+                "name": "channel.raid",
+                "title": "Channel Raid",
+                "version": "1",
+                "description": "A broadcaster raids another broadcaster’s channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.raid</code> subscription type sends a notification when a broadcaster raids another broadcaster’s channel.",
+                "authorization": "No authorization required.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.raid</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-raid-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Set either the <code class=\"highlighter-rouge\">from_broadcaster_user_id</code> or <code class=\"highlighter-rouge\">to_broadcaster_user_id</code> condition parameter but not both. If you pass both parameters, the subscription request fails."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 224,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 7,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 7,
+                "name": "channel.cheer",
+                "title": "Channel Cheer",
+                "version": "1",
+                "description": "A user cheers on the specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.cheer</code> subscription type sends a notification when a user cheers on the specified channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">bits:read</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.cheer</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-cheer-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters. Pass in the broadcaster user ID for the channel you want to receive cheer notifications for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 223,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 6,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 6,
+                "name": "channel.subscription.message",
+                "title": "Channel Subscription Message",
+                "version": "1",
+                "description": "A notification when a user sends a resubscription chat message in a specific channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.subscription.message</code> subscription type sends a notification when a user sends a resubscription chat message in a specific channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:subscriptions</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.subscription.message</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-subscription-message-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 222,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 5,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 5,
+                "name": "channel.subscription.gift",
+                "title": "Channel Subscription Gift",
+                "version": "1",
+                "description": "A notification when a viewer gives a gift subscription to one or more users in the specified channel.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.subscription.gift</code> subscription type sends a notification when a user gives one or more gifted subscriptions in a channel.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:subscriptions</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.subscription.gift</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": "<a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-subscription-gift-condition\" target=\"_blank\">condition</a>",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters."
+                    },
+                    "transport": {
+                        "type": "<a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a>",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 221,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 4,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 4,
+                "name": "channel.subscription.end",
+                "title": "Channel Subscription End",
+                "version": "1",
+                "description": "A notification when a subscription to the specified channel ends.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.subscription.end</code> subscription type sends a notification when a subscription to the specified channel expires.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:subscriptions</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.subscription.end</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": "<a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-subscription-end-condition\" target=\"_blank\">condition</a>",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters."
+                    },
+                    "transport": {
+                        "type": "<a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a>",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 220,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 3,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 3,
+                "name": "channel.subscribe",
+                "title": "Channel Subscribe",
+                "version": "1",
+                "description": "A notification when a specified channel receives a subscriber. This does not include resubscribes.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.subscribe</code> subscription type sends a notification when a specified channel receives a subscriber. This does not include resubscribes.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">channel:read:subscriptions</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.subscribe</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">1</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-subscribe-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 219,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 2,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 2,
+                "name": "channel.follow",
+                "title": "Channel Follow",
+                "version": "2",
+                "description": "A specified channel receives a follow.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.follow</code> subscription type sends a notification when a specified channel receives a follow.",
+                "authorization": "Must have <code class=\"highlighter-rouge\">moderator:read:followers</code> scope.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.follow</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">2</code>.\n<br>Version <code class=\"highlighter-rouge\">1</code> has been deprecated and will be removed on <a href=\"https://discuss.dev.twitch.tv/t/follows-endpoints-and-eventsub-subscription-type-are-now-available-in-open-beta/43322\" target=\"_blank\">August 3, 2023</a>. Access to v1 is limited to client IDs that had at least one active subscription on February 17, 2023."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-follow-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Subscription-specific parameters."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
+        "id": 218,
+        "log_name": "events",
+        "description": "created",
+        "subject_type": "App\\Models\\EventSub",
+        "subject_id": 1,
+        "event": "created",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "id": 1,
+                "name": "channel.update",
+                "title": "Channel Update",
+                "version": "2",
+                "description": "A broadcaster updates their channel properties <em>e.g.</em>, category, title, content classification labels, broadcast, or language.",
+                "instruction": "The <code class=\"highlighter-rouge\">channel.update</code> subscription type sends notifications when a broadcaster updates the category, title, <a href=\"https://safety.twitch.tv/s/article/Content-Classification-Guidelines\" target=\"_blank\">content classification labels</a>, or broadcast language for their channel.",
+                "authorization": "No authorization required.",
+                "request_body": {
+                    "type": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type name: <code class=\"highlighter-rouge\">channel.update</code>."
+                    },
+                    "version": {
+                        "type": "string",
+                        "required": true,
+                        "instruction": "The subscription type version: <code class=\"highlighter-rouge\">2</code>."
+                    },
+                    "condition": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#channel-update-condition\" target=\"_blank\">condition</a> ",
+                        "required": true,
+                        "instruction": "Pass in the <code class=\"highlighter-rouge\">broadcaster_user_id </code>for the channel you want updates for."
+                    },
+                    "transport": {
+                        "type": " <a href=\"https://dev.twitch.tv/docs/eventsub/eventsub-reference/#transport\" target=\"_blank\">transport</a> ",
+                        "required": true,
+                        "instruction": "Transport-specific parameters."
+                    }
+                },
+                "deleted_at": null
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-07-25T08:28:59.000000Z"
+    },
+    {
         "id": 217,
         "log_name": "endpoints",
         "description": "updated",

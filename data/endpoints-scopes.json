@@ -1,0 +1,282 @@
+{
+    "Add Blocked Term": [
+        "moderator:manage:blocked_terms"
+    ],
+    "Add Channel Moderator": [
+        "channel:manage:moderators"
+    ],
+    "Add Channel VIP": [
+        "channel:manage:vips"
+    ],
+    "Assign Guest Star Slot": [],
+    "Ban User": [
+        "moderator:manage:banned_users"
+    ],
+    "Block User": [
+        "user:manage:blocked_users"
+    ],
+    "Cancel a raid": [
+        "channel:manage:raids"
+    ],
+    "Check AutoMod Status": [
+        "moderation:read"
+    ],
+    "Check User Subscription": [
+        "user:read:subscriptions"
+    ],
+    "Create Channel Stream Schedule Segment": [
+        "channel:manage:schedule"
+    ],
+    "Create Clip": [
+        "clips:edit"
+    ],
+    "Create Custom Rewards": [
+        "channel:manage:redemptions"
+    ],
+    "Create EventSub Subscription": [],
+    "Create Extension Secret": [],
+    "Create Guest Star Session": [],
+    "Create Poll": [
+        "channel:manage:polls"
+    ],
+    "Create Prediction": [
+        "channel:manage:predictions"
+    ],
+    "Create Stream Marker": [
+        "channel:manage:broadcast"
+    ],
+    "Delete Channel Stream Schedule Segment": [
+        "channel:manage:schedule"
+    ],
+    "Delete Chat Messages": [
+        "moderator:manage:chat_messages"
+    ],
+    "Delete Custom Reward": [
+        "channel:manage:redemptions"
+    ],
+    "Delete EventSub Subscription": [],
+    "Delete Guest Star Invite": [],
+    "Delete Guest Star Slot": [],
+    "Delete Videos": [
+        "channel:manage:videos"
+    ],
+    "End Guest Star Session": [],
+    "End Poll": [
+        "channel:manage:polls"
+    ],
+    "End Prediction": [
+        "channel:manage:predictions"
+    ],
+    "Get All Stream Tags": [],
+    "Get AutoMod Settings": [
+        "moderator:read:automod_settings"
+    ],
+    "Get Banned Users": [
+        "moderation:read",
+        "moderator:manage:banned_users"
+    ],
+    "Get Bits Leaderboard": [
+        "bits:read"
+    ],
+    "Get Blocked Terms": [
+        "moderator:read:blocked_terms",
+        "moderator:manage:blocked_terms"
+    ],
+    "Get Broadcaster Subscriptions": [
+        "channel:read:subscriptions"
+    ],
+    "Get Channel Chat Badges": [],
+    "Get Channel Editors": [
+        "channel:read:editors"
+    ],
+    "Get Channel Emotes": [],
+    "Get Channel Followers": [
+        "moderator:read:followers"
+    ],
+    "Get Channel Guest Star Settings": [],
+    "Get Channel iCalendar": [],
+    "Get Channel Information": [],
+    "Get Channel Stream Schedule": [],
+    "Get Channel Teams": [],
+    "Get Charity Campaign": [
+        "channel:read:charity"
+    ],
+    "Get Charity Campaign Donations": [
+        "channel:read:charity"
+    ],
+    "Get Chat Settings": [],
+    "Get Chatters": [
+        "moderator:read:chatters"
+    ],
+    "Get Cheermotes": [],
+    "Get Clips": [],
+    "Get Content Classification Labels": [],
+    "Get Creator Goals": [
+        "channel:read:goals"
+    ],
+    "Get Custom Reward": [
+        "channel:read:redemptions",
+        "channel:manage:redemptions"
+    ],
+    "Get Custom Reward Redemption": [
+        "channel:read:redemptions",
+        "channel:manage:redemptions"
+    ],
+    "Get Drops Entitlements": [],
+    "Get Emote Sets": [],
+    "Get EventSub Subscriptions": [],
+    "Get Extension Analytics": [
+        "analytics:read:extensions"
+    ],
+    "Get Extension Bits Products": [],
+    "Get Extension Configuration Segment": [],
+    "Get Extension Live Channels": [],
+    "Get Extension Secrets": [],
+    "Get Extension Transactions": [],
+    "Get Extensions": [],
+    "Get Followed Channels": [
+        "user:read:follows"
+    ],
+    "Get Followed Streams": [
+        "user:read:follows"
+    ],
+    "Get Game Analytics": [
+        "analytics:read:games"
+    ],
+    "Get Games": [],
+    "Get Global Chat Badges": [],
+    "Get Global Emotes": [],
+    "Get Guest Star Invites": [],
+    "Get Guest Star Session": [],
+    "Get Hype Train Events": [
+        "channel:read:hype_train"
+    ],
+    "Get Moderators": [
+        "channel:manage:moderators",
+        "moderation:read"
+    ],
+    "Get Polls": [
+        "channel:read:polls",
+        "channel:manage:polls"
+    ],
+    "Get Predictions": [
+        "channel:read:predictions",
+        "channel:manage:predictions"
+    ],
+    "Get Released Extensions": [],
+    "Get Shield Mode Status": [
+        "moderator:read:shield_mode",
+        "moderator:manage:shield_mode"
+    ],
+    "Get Stream Key": [
+        "channel:read:stream_key"
+    ],
+    "Get Stream Markers": [
+        "channel:manage:broadcast",
+        "user:read:broadcast"
+    ],
+    "Get Stream Tags": [],
+    "Get Streams": [],
+    "Get Teams": [],
+    "Get Top Games": [],
+    "Get User Active Extensions": [
+        "user:read:broadcast",
+        "user:edit:broadcast"
+    ],
+    "Get User Block List": [
+        "user:read:blocked_users"
+    ],
+    "Get User Chat Color": [],
+    "Get User Extensions": [
+        "user:read:broadcast",
+        "user:edit:broadcast"
+    ],
+    "Get Users": [
+        "user:read:email"
+    ],
+    "Get Users Follows": [],
+    "Get Videos": [],
+    "Get VIPs": [
+        "channel:read:vips",
+        "channel:manage:vips"
+    ],
+    "Manage Held AutoMod Messages": [
+        "moderator:manage:automod"
+    ],
+    "Modify Channel Information": [
+        "channel:manage:broadcast"
+    ],
+    "Remove Blocked Term": [
+        "moderator:manage:blocked_terms"
+    ],
+    "Remove Channel Moderator": [
+        "channel:manage:moderators"
+    ],
+    "Remove Channel VIP": [
+        "channel:manage:vips"
+    ],
+    "Search Categories": [],
+    "Search Channels": [],
+    "Send a Shoutout": [
+        "moderator:manage:shoutouts"
+    ],
+    "Send Chat Announcement": [
+        "moderator:manage:announcements"
+    ],
+    "Send Extension Chat Message": [],
+    "Send Extension PubSub Message": [],
+    "Send Guest Star Invite": [],
+    "Send Whisper": [
+        "user:manage:whispers"
+    ],
+    "Set Extension Configuration Segment": [],
+    "Set Extension Required Configuration": [],
+    "Start a raid": [
+        "channel:manage:raids"
+    ],
+    "Start Commercial": [
+        "channel:edit:commercial"
+    ],
+    "Unban User": [
+        "moderator:manage:banned_users"
+    ],
+    "Unblock User": [
+        "user:manage:blocked_users"
+    ],
+    "Update AutoMod Settings": [
+        "moderator:manage:automod_settings"
+    ],
+    "Update Channel Guest Star Settings": [],
+    "Update Channel Stream Schedule": [
+        "channel:manage:schedule"
+    ],
+    "Update Channel Stream Schedule Segment": [
+        "channel:manage:schedule"
+    ],
+    "Update Chat Settings": [
+        "moderator:manage:chat_settings"
+    ],
+    "Update Custom Reward": [
+        "channel:manage:redemptions"
+    ],
+    "Update Drops Entitlements": [],
+    "Update Extension Bits Product": [],
+    "Update Guest Star Slot": [],
+    "Update Guest Star Slot Settings": [],
+    "Update Redemption Status": [
+        "channel:manage:redemptions"
+    ],
+    "Update Shield Mode Status": [
+        "moderator:manage:shield_mode"
+    ],
+    "Update User": [
+        "user:edit",
+        "user:read:email"
+    ],
+    "Update User Chat Color": [
+        "user:manage:chat_color"
+    ],
+    "Update User Extensions": [
+        "user:edit:broadcast"
+    ]
+}
