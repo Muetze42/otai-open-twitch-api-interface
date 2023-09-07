@@ -92,9 +92,7 @@
         "channel:read:editors"
     ],
     "Get Channel Emotes": [],
-    "Get Channel Followers": [
-        "moderator:read:followers"
-    ],
+    "Get Channel Followers": [],
     "Get Channel Guest Star Settings": [],
     "Get Channel iCalendar": [],
     "Get Channel Information": [],

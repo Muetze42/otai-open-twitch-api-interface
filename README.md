@@ -56,7 +56,7 @@ The project is new and is in a kind of open beta.
 | Get Channel Chat Badges                | `/chat/badges`                               |                                                                    |
 | Get Channel Editors                    | `/channels/editors`                          |                       `channel:read:editors`                       |
 | Get Channel Emotes                     | `/chat/emotes`                               |                                                                    |
-| Get Channel Followers                  | `/channels/followers`                        |                     `moderator:read:followers`                     |
+| Get Channel Followers                  | `/channels/followers`                        |                                                                    |
 | Get Channel Guest Star Settings        | `/guest_star/channel_settings`               |                                                                    |
 | Get Channel Information                | `/channels`                                  |                                                                    |
 | Get Channel Stream Schedule            | `/schedule`                                  |                                                                    |

@@ -1,5 +1,219 @@
 [
     {
+        "id": 329,
+        "log_name": "endpoints",
+        "description": "updated",
+        "subject_type": "App\\Models\\Endpoint",
+        "subject_id": 11,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "authorization": "<ul><li>Requires a <a href=\"https://dev.twitch.tv/docs/authentication#user-access-tokens\" target=\"_blank\">user access token</a> that includes the <strong>moderator:read:followers</strong> scope.</li>\n\n<li>The ID in the broadcaster_id query parameter must match the user ID in the access token or the user must be a moderator for the specified broadcaster.</li></ul>This endpoint will return specific follower information only if both of the above are true. If a scope is not provided or the user isn’t the broadcaster or a moderator for the specified channel, only the total follower count will be included in the response.",
+                "request_query_parameters": {
+                    "items": {
+                        "user_id": {
+                            "type": "String",
+                            "required": false,
+                            "instruction": "A user’s ID. Use this parameter to see whether the user follows this broadcaster. If specified, the response contains this user if they follow the broadcaster. If not specified, the response contains all users that follow the broadcaster.\n<br>\n<br>Using this parameter requires both a user access token with the <strong>moderator:read:followers</strong> scope and the user ID in the access token match the broadcaster_id or be the user ID for a moderator of the specified broadcaster."
+                        },
+                        "broadcaster_id": {
+                            "type": "String",
+                            "required": true,
+                            "instruction": "The broadcaster’s ID. Returns the list of users that follow this broadcaster."
+                        },
+                        "first": {
+                            "type": "Integer",
+                            "required": false,
+                            "instruction": "The maximum number of items to return per page in the response. The minimum page size is 1 item per page and the maximum is 100. The default is 20."
+                        },
+                        "after": {
+                            "type": "String",
+                            "required": false,
+                            "instruction": "The cursor used to get the next page of results. The <strong>Pagination</strong> object in the response contains the cursor’s value. <a href=\"https://dev.twitch.tv/docs/api/guide#pagination\" target=\"_blank\">Read more</a>."
+                        }
+                    }
+                },
+                "response_body": {
+                    "items": {
+                        "data": {
+                            "type": "Object[]",
+                            "required": true,
+                            "instruction": "The list of users that follow the specified broadcaster. The list is in descending order by <code class=\"highlighter-rouge\">followed_at</code> (with the most recent follower first). The list is empty if nobody follows the broadcaster, the specified <code class=\"highlighter-rouge\">user_id</code> isn’t in the follower list, the user access token is missing the <strong>moderator:read:followers</strong> scope, or the user isn’t the broadcaster or moderator for the channel.",
+                            "children": {
+                                "followed_at": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The UTC timestamp when the user started following the broadcaster."
+                                },
+                                "user_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that uniquely identifies the user that’s following the broadcaster."
+                                },
+                                "user_login": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The user’s login name."
+                                },
+                                "user_name": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The user’s display name."
+                                }
+                            }
+                        },
+                        "pagination": {
+                            "type": "Object",
+                            "required": true,
+                            "instruction": "Contains the information used to page through the list of results. The object is empty if there are no more pages left to page through. <a href=\"https://dev.twitch.tv/docs/api/guide#pagination\" target=\"_blank\">Read more</a>.",
+                            "children": {
+                                "followed_at": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The UTC timestamp when the user started following the broadcaster."
+                                },
+                                "user_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that uniquely identifies the user that’s following the broadcaster."
+                                },
+                                "user_login": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The user’s login name."
+                                },
+                                "user_name": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The user’s display name."
+                                },
+                                "cursor": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The cursor used to get the next page of results. Use the cursor to set the request’s <em>after</em> query parameter."
+                                }
+                            }
+                        },
+                        "total": {
+                            "type": "Integer",
+                            "required": true,
+                            "instruction": "The total number of users that follow this broadcaster. As someone pages through the list, the number of users may change as users follow or unfollow the broadcaster."
+                        }
+                    }
+                },
+                "response_codes": {
+                    "200": "Successfully retrieved the broadcaster’s list of followers.",
+                    "400": "Possible reasons:<ul><li>The <i>broadcaster_id</i> query parameter is required.</li><li>The <i>broadcaster_id</i> query parameter is not valid.</li></ul>",
+                    "401": "Possible reasons:<ul><li>The ID in the <i>broadcaster_id</i> query parameter must match the user ID in the access token or the user must be a moderator for the specified broadcaster.</li><li>The Authorization header is required and must contain a user access token.</li><li>The user access token is missing the <b>moderator:read:followers</b> scope.</li><li>The OAuth token is not valid.</li><li>The client ID specified in the Client-Id header does not match the client ID specified in the OAuth token.</li><li>The <i>user_id</i> parameter was specified but either the user access token is missing the <b>moderator:read:followers</b> scope or the user is not the broadcaster or moderator for the specified channel</li></ul>"
+                }
+            },
+            "old": {
+                "authorization": "Requires a <a href=\"https://dev.twitch.tv/docs/authentication#user-access-tokens\" target=\"_blank\">user access token</a> that includes the <strong>moderator:read:followers</strong> scope. The ID in the broadcaster_id query parameter must match the user ID in the access token or the user must be a moderator for the specified broadcaster. If a scope is not provided, only the total follower count will be included in the response.",
+                "request_query_parameters": {
+                    "items": {
+                        "user_id": {
+                            "type": "String",
+                            "required": false,
+                            "instruction": "A user’s ID. Use this parameter to see whether the user follows this broadcaster. If specified, the response contains this user if they follow the broadcaster. If not specified, the response contains all users that follow the broadcaster."
+                        },
+                        "broadcaster_id": {
+                            "type": "String",
+                            "required": true,
+                            "instruction": "The broadcaster’s ID. Returns the list of users that follow this broadcaster."
+                        },
+                        "first": {
+                            "type": "Integer",
+                            "required": false,
+                            "instruction": "The maximum number of items to return per page in the response. The minimum page size is 1 item per page and the maximum is 100. The default is 20."
+                        },
+                        "after": {
+                            "type": "String",
+                            "required": false,
+                            "instruction": "The cursor used to get the next page of results. The <strong>Pagination</strong> object in the response contains the cursor’s value. <a href=\"https://dev.twitch.tv/docs/api/guide#pagination\" target=\"_blank\">Read more</a>."
+                        }
+                    }
+                },
+                "response_body": {
+                    "items": {
+                        "data": {
+                            "type": "Object[]",
+                            "required": true,
+                            "instruction": "The list of users that follow the specified broadcaster. The list is in descending order by <code class=\"highlighter-rouge\">followed_at</code> (with the most recent follower first). The list is empty if nobody follows the broadcaster.",
+                            "children": {
+                                "followed_at": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The UTC timestamp when the user started following the broadcaster."
+                                },
+                                "user_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that uniquely identifies the user that’s following the broadcaster."
+                                },
+                                "user_login": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The user’s login name."
+                                },
+                                "user_name": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The user’s display name."
+                                }
+                            }
+                        },
+                        "pagination": {
+                            "type": "Object",
+                            "required": true,
+                            "instruction": "Contains the information used to page through the list of results. The object is empty if there are no more pages left to page through. <a href=\"https://dev.twitch.tv/docs/api/guide#pagination\" target=\"_blank\">Read more</a>.",
+                            "children": {
+                                "followed_at": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The UTC timestamp when the user started following the broadcaster."
+                                },
+                                "user_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that uniquely identifies the user that’s following the broadcaster."
+                                },
+                                "user_login": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The user’s login name."
+                                },
+                                "user_name": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The user’s display name."
+                                },
+                                "cursor": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The cursor used to get the next page of results. Use the cursor to set the request’s <em>after</em> query parameter."
+                                }
+                            }
+                        },
+                        "total": {
+                            "type": "Integer",
+                            "required": true,
+                            "instruction": "The total number of users that follow this broadcaster. As someone pages through the list, the number of users may change as users follow or unfollow the broadcaster."
+                        }
+                    }
+                },
+                "response_codes": {
+                    "200": "Successfully retrieved the broadcaster’s list of followers.",
+                    "400": "Possible reasons:<ul><li>The <i>broadcaster_id</i> query parameter is required.</li><li>The <i>broadcaster_id</i> query parameter is not valid.</li><li>The <i>user_id</i> query parameter is required.</li></ul>",
+                    "401": "Possible reasons:<ul><li>The ID in the <i>broadcaster_id</i> query parameter must match the user ID in the access token or the user must be a moderator for the specified broadcaster.</li><li>The Authorization header is required and must contain a user access token.</li><li>The user access token is missing the <b>moderator:read:followers</b> scope.</li><li>The OAuth token is not valid.</li><li>The client ID specified in the Client-Id header does not match the client ID specified in the OAuth token.</li></ul>"
+                }
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-09-07T23:00:03.000000Z"
+    },
+    {
         "id": 328,
         "log_name": "scopes",
         "description": "updated",
