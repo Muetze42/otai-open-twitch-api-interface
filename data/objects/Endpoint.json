@@ -48,7 +48,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -92,7 +92,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -461,7 +461,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -633,7 +633,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -805,7 +805,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -868,7 +868,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -904,7 +904,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -950,7 +950,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -1021,7 +1021,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -1269,7 +1269,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -1375,7 +1375,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -1497,7 +1497,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -1602,7 +1602,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -1666,7 +1666,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -1772,7 +1772,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -1864,7 +1864,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -2072,7 +2072,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -2319,7 +2319,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:52.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -2392,7 +2392,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -2751,7 +2751,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -3113,7 +3113,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -3164,7 +3164,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -3374,7 +3374,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -3443,7 +3443,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -3484,7 +3484,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -3749,7 +3749,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -4009,7 +4009,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -4066,7 +4066,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -4101,7 +4101,7 @@
         "app_access_token_auth": false,
         "active": false,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:04.000000Z",
         "deleted_at": null
     },
     {
@@ -4436,7 +4436,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -4474,7 +4474,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -4538,7 +4538,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -4796,7 +4796,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -5061,7 +5061,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -5436,7 +5436,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -5609,7 +5609,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -5804,7 +5804,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -6081,7 +6081,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -6159,7 +6159,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -6244,7 +6244,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -6291,7 +6291,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -6340,7 +6340,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -6444,7 +6444,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -6486,7 +6486,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -6529,7 +6529,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -6633,7 +6633,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -6681,7 +6681,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -6728,7 +6728,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -6823,7 +6823,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -6968,7 +6968,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -7017,7 +7017,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -7121,7 +7121,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -7290,7 +7290,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -7446,7 +7446,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -7553,7 +7553,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -7601,7 +7601,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -7679,7 +7679,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -8071,7 +8071,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -8140,7 +8140,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -8200,7 +8200,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -8253,7 +8253,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -8308,7 +8308,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -8356,7 +8356,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -8404,7 +8404,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -8491,7 +8491,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -8609,7 +8609,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -8723,7 +8723,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -8841,7 +8841,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -8902,7 +8902,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -8968,7 +8968,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -9059,7 +9059,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -9133,7 +9133,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -9239,7 +9239,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:51.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -9522,7 +9522,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -9557,7 +9557,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -9784,7 +9784,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -9917,7 +9917,7 @@
         "app_access_token_auth": true,
         "active": false,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -10013,7 +10013,7 @@
         "app_access_token_auth": true,
         "active": false,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -11298,7 +11298,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -12583,7 +12583,7 @@
         "app_access_token_auth": false,
         "active": false,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -12635,7 +12635,7 @@
         "app_access_token_auth": false,
         "active": false,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -12721,7 +12721,7 @@
         "app_access_token_auth": false,
         "active": false,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -12794,7 +12794,7 @@
         "app_access_token_auth": false,
         "active": false,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -12879,7 +12879,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -12929,7 +12929,7 @@
         "app_access_token_auth": false,
         "active": false,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -12981,7 +12981,7 @@
         "app_access_token_auth": false,
         "active": false,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -13035,7 +13035,7 @@
         "app_access_token_auth": false,
         "active": false,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -13110,7 +13110,7 @@
         "app_access_token_auth": false,
         "active": false,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -13170,7 +13170,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -13323,7 +13323,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -13390,7 +13390,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -13643,7 +13643,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -13699,7 +13699,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -13742,7 +13742,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -13806,7 +13806,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -13856,7 +13856,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -13912,7 +13912,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -14068,7 +14068,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -14172,7 +14172,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -14271,7 +14271,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -14377,7 +14377,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -14616,7 +14616,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -14803,7 +14803,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -15042,7 +15042,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -15151,7 +15151,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -15342,7 +15342,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -15570,7 +15570,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -15749,7 +15749,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -16395,7 +16395,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -16602,7 +16602,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -17180,7 +17180,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -17224,7 +17224,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -17858,20 +17858,18 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
         "id": 11,
         "resource_id": 4,
         "name": "Get Channel Followers",
-        "scopes": [
-            "moderator:read:followers"
-        ],
+        "scopes": [],
         "slug": "get-channel-followers",
         "description": "Gets a list of users that follow the specified broadcaster. You can also use this endpoint to see whether a specific user follows the broadcaster.",
         "instruction": "Gets a list of users that follow the specified broadcaster. You can also use this endpoint to see whether a specific user follows the broadcaster.",
-        "authorization": "Requires a <a href=\"https://dev.twitch.tv/docs/authentication#user-access-tokens\" target=\"_blank\">user access token</a> that includes the <strong>moderator:read:followers</strong> scope. The ID in the broadcaster_id query parameter must match the user ID in the access token or the user must be a moderator for the specified broadcaster. If a scope is not provided, only the total follower count will be included in the response.",
+        "authorization": "<ul><li>Requires a <a href=\"https://dev.twitch.tv/docs/authentication#user-access-tokens\" target=\"_blank\">user access token</a> that includes the <strong>moderator:read:followers</strong> scope.</li>\n\n<li>The ID in the broadcaster_id query parameter must match the user ID in the access token or the user must be a moderator for the specified broadcaster.</li></ul>This endpoint will return specific follower information only if both of the above are true. If a scope is not provided or the user isn’t the broadcaster or a moderator for the specified channel, only the total follower count will be included in the response.",
         "route": "/channels/followers",
         "method": "GET",
         "request_body": [],
@@ -17880,7 +17878,7 @@
                 "user_id": {
                     "type": "String",
                     "required": false,
-                    "instruction": "A user’s ID. Use this parameter to see whether the user follows this broadcaster. If specified, the response contains this user if they follow the broadcaster. If not specified, the response contains all users that follow the broadcaster."
+                    "instruction": "A user’s ID. Use this parameter to see whether the user follows this broadcaster. If specified, the response contains this user if they follow the broadcaster. If not specified, the response contains all users that follow the broadcaster.\n<br>\n<br>Using this parameter requires both a user access token with the <strong>moderator:read:followers</strong> scope and the user ID in the access token match the broadcaster_id or be the user ID for a moderator of the specified broadcaster."
                 },
                 "broadcaster_id": {
                     "type": "String",
@@ -17904,7 +17902,7 @@
                 "data": {
                     "type": "Object[]",
                     "required": true,
-                    "instruction": "The list of users that follow the specified broadcaster. The list is in descending order by <code class=\"highlighter-rouge\">followed_at</code> (with the most recent follower first). The list is empty if nobody follows the broadcaster.",
+                    "instruction": "The list of users that follow the specified broadcaster. The list is in descending order by <code class=\"highlighter-rouge\">followed_at</code> (with the most recent follower first). The list is empty if nobody follows the broadcaster, the specified <code class=\"highlighter-rouge\">user_id</code> isn’t in the follower list, the user access token is missing the <strong>moderator:read:followers</strong> scope, or the user isn’t the broadcaster or moderator for the channel.",
                     "children": {
                         "followed_at": {
                             "type": "String",
@@ -17969,14 +17967,14 @@
         },
         "response_codes": {
             "200": "Successfully retrieved the broadcaster’s list of followers.",
-            "400": "Possible reasons:<ul><li>The <i>broadcaster_id</i> query parameter is required.</li><li>The <i>broadcaster_id</i> query parameter is not valid.</li><li>The <i>user_id</i> query parameter is required.</li></ul>",
-            "401": "Possible reasons:<ul><li>The ID in the <i>broadcaster_id</i> query parameter must match the user ID in the access token or the user must be a moderator for the specified broadcaster.</li><li>The Authorization header is required and must contain a user access token.</li><li>The user access token is missing the <b>moderator:read:followers</b> scope.</li><li>The OAuth token is not valid.</li><li>The client ID specified in the Client-Id header does not match the client ID specified in the OAuth token.</li></ul>"
+            "400": "Possible reasons:<ul><li>The <i>broadcaster_id</i> query parameter is required.</li><li>The <i>broadcaster_id</i> query parameter is not valid.</li></ul>",
+            "401": "Possible reasons:<ul><li>The ID in the <i>broadcaster_id</i> query parameter must match the user ID in the access token or the user must be a moderator for the specified broadcaster.</li><li>The Authorization header is required and must contain a user access token.</li><li>The user access token is missing the <b>moderator:read:followers</b> scope.</li><li>The OAuth token is not valid.</li><li>The client ID specified in the Client-Id header does not match the client ID specified in the OAuth token.</li><li>The <i>user_id</i> parameter was specified but either the user access token is missing the <b>moderator:read:followers</b> scope or the user is not the broadcaster or moderator for the specified channel</li></ul>"
         },
         "user_access_tokens_auth": true,
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -18094,7 +18092,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -18155,7 +18153,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -18245,7 +18243,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -18447,7 +18445,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -18830,7 +18828,7 @@
         "app_access_token_auth": true,
         "active": false,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -18945,7 +18943,7 @@
         "app_access_token_auth": true,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -19079,7 +19077,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:50.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -19245,7 +19243,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:49.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -19411,7 +19409,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:49.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     },
     {
@@ -19479,7 +19477,7 @@
         "app_access_token_auth": false,
         "active": true,
         "created_at": "2023-07-20T23:31:49.000000Z",
-        "updated_at": "2023-09-07T22:00:03.000000Z",
+        "updated_at": "2023-09-08T00:00:03.000000Z",
         "deleted_at": null
     }
 ]
