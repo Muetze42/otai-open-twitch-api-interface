@@ -1,5 +1,25 @@
 [
     {
+        "id": 330,
+        "log_name": "endpoints",
+        "description": "updated",
+        "subject_type": "App\\Models\\Endpoint",
+        "subject_id": 11,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "authorization": "<ul><li>Requires a <a href=\"https://dev.twitch.tv/docs/authentication#user-access-tokens\" target=\"_blank\">user access token</a> that includes the <strong>moderator:read:followers</strong> scope.</li>\n\n<li>The ID in the broadcaster_id query parameter must match the user ID in the access token or the user ID in the access token must be a moderator for the specified broadcaster.</li></ul>This endpoint will return specific follower information only if both of the above are true. If a scope is not provided or the user isn’t the broadcaster or a moderator for the specified channel, only the total follower count will be included in the response."
+            },
+            "old": {
+                "authorization": "<ul><li>Requires a <a href=\"https://dev.twitch.tv/docs/authentication#user-access-tokens\" target=\"_blank\">user access token</a> that includes the <strong>moderator:read:followers</strong> scope.</li>\n\n<li>The ID in the broadcaster_id query parameter must match the user ID in the access token or the user must be a moderator for the specified broadcaster.</li></ul>This endpoint will return specific follower information only if both of the above are true. If a scope is not provided or the user isn’t the broadcaster or a moderator for the specified channel, only the total follower count will be included in the response."
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-09-09T00:00:03.000000Z"
+    },
+    {
         "id": 329,
         "log_name": "endpoints",
         "description": "updated",
