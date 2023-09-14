@@ -1,5 +1,494 @@
 [
     {
+        "id": 331,
+        "log_name": "endpoints",
+        "description": "updated",
+        "subject_type": "App\\Models\\Endpoint",
+        "subject_id": 33,
+        "event": "updated",
+        "causer_type": null,
+        "causer_id": null,
+        "properties": {
+            "attributes": {
+                "request_query_parameters": {
+                    "text": "The <em>id</em>, <em>game_id</em>, and <em>broadcaster_id</em> query parameters are mutually exclusive.",
+                    "items": {
+                        "broadcaster_id": {
+                            "type": "String",
+                            "required": true,
+                            "instruction": "An ID that identifies the broadcaster whose video clips you want to get. Use this parameter to get clips that were captured from the broadcaster’s streams."
+                        },
+                        "game_id": {
+                            "type": "String",
+                            "required": true,
+                            "instruction": "An ID that identifies the game whose clips you want to get. Use this parameter to get clips that were captured from streams that were playing this game."
+                        },
+                        "id": {
+                            "type": "String",
+                            "required": true,
+                            "instruction": "An ID that identifies the clip to get. To specify more than one ID, include this parameter for each clip you want to get. For example, <code class=\"highlighter-rouge\">id=foo&amp;id=bar</code>. You may specify a maximum of 100 IDs. The API ignores duplicate IDs and IDs that aren’t found."
+                        },
+                        "started_at": {
+                            "type": "String",
+                            "required": false,
+                            "instruction": "The start date used to filter clips. The API returns only clips within the start and end date window. Specify the date and time in RFC3339 format."
+                        },
+                        "ended_at": {
+                            "type": "String",
+                            "required": false,
+                            "instruction": "The end date used to filter clips. If not specified, the time window is the start date plus one week. Specify the date and time in RFC3339 format."
+                        },
+                        "first": {
+                            "type": "Integer",
+                            "required": false,
+                            "instruction": "The maximum number of clips to return per page in the response. The minimum page size is 1 clip per page and the maximum is 100. The default is 20."
+                        },
+                        "before": {
+                            "type": "String",
+                            "required": false,
+                            "instruction": "The cursor used to get the previous page of results. The <strong>Pagination</strong> object in the response contains the cursor’s value. <a href=\"https://dev.twitch.tv/docs/api/guide#pagination\" target=\"_blank\">Read More</a>"
+                        },
+                        "after": {
+                            "type": "String",
+                            "required": false,
+                            "instruction": "The cursor used to get the next page of results. The <strong>Pagination</strong> object in the response contains the cursor’s value. <a href=\"https://dev.twitch.tv/docs/api/guide#pagination\" target=\"_blank\">Read More</a>"
+                        },
+                        "is_featured": {
+                            "type": "Boolean",
+                            "required": false,
+                            "instruction": "A Boolean value that determines whether the response includes featured clips. If <strong>true</strong>, returns only clips that are featured. If <strong>false</strong>, returns only clips that aren’t featured. All clips are returned if this parameter is not present."
+                        }
+                    }
+                },
+                "response_body": {
+                    "items": {
+                        "data": {
+                            "type": "Object[]",
+                            "required": true,
+                            "instruction": "The list of video clips. For clips returned by <em>game_id</em> or <em>broadcaster_id</em>, the list is in descending order by view count. For lists returned by <em>id</em>, the list is in the same order as the input IDs.",
+                            "children": {
+                                "id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that uniquely identifies the clip."
+                                },
+                                "url": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "A URL to the clip."
+                                },
+                                "embed_url": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "A URL that you can use in an iframe to embed the clip (see <a href=\"https://dev.twitch.tv/docs/embed/video-and-clips\" target=\"_blank\">Embedding Video and Clips</a>)."
+                                },
+                                "broadcaster_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that identifies the broadcaster that the video was clipped from."
+                                },
+                                "broadcaster_name": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The broadcaster’s display name."
+                                },
+                                "creator_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that identifies the user that created the clip."
+                                },
+                                "creator_name": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The user’s display name."
+                                },
+                                "video_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that identifies the video that the clip came from. This field contains an empty string if the video is not available."
+                                },
+                                "game_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The ID of the game that was being played when the clip was created."
+                                },
+                                "language": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The ISO 639-1 two-letter language code that the broadcaster broadcasts in. For example, <em>en</em> for English. The value is <em>other</em> if the broadcaster uses a language that Twitch doesn’t support."
+                                },
+                                "title": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The title of the clip."
+                                },
+                                "view_count": {
+                                    "type": "Integer",
+                                    "required": true,
+                                    "instruction": "The number of times the clip has been viewed."
+                                },
+                                "created_at": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The date and time of when the clip was created. The date and time is in RFC3339 format."
+                                },
+                                "thumbnail_url": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "A URL to a thumbnail image of the clip."
+                                },
+                                "duration": {
+                                    "type": "float",
+                                    "required": true,
+                                    "instruction": "The length of the clip, in seconds. Precision is 0.1."
+                                },
+                                "vod_offset": {
+                                    "type": "Integer",
+                                    "required": true,
+                                    "instruction": "The zero-based offset, in seconds, to where the clip starts in the video (VOD). Is <strong>null</strong> if the video is not available or hasn’t been created yet from the live stream (see <code class=\"highlighter-rouge\">video_id</code>).\n<br>\n<br>Note that there’s a delay between when a clip is created during a broadcast and when the offset is set. During the delay period, <code class=\"highlighter-rouge\">vod_offset</code> is <strong>null</strong>. The delay is indeterminant but is typically minutes long."
+                                },
+                                "is_featured": {
+                                    "type": "Boolean",
+                                    "required": true,
+                                    "instruction": "A Boolean value that indicates if the clip is featured or not."
+                                }
+                            }
+                        },
+                        "pagination": {
+                            "type": "Object",
+                            "required": true,
+                            "instruction": "The information used to page through the list of results. The object is empty if there are no more pages left to page through. <a href=\"https://dev.twitch.tv/docs/api/guide#pagination\" target=\"_blank\">Read More</a>",
+                            "children": {
+                                "id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that uniquely identifies the clip."
+                                },
+                                "url": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "A URL to the clip."
+                                },
+                                "embed_url": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "A URL that you can use in an iframe to embed the clip (see <a href=\"https://dev.twitch.tv/docs/embed/video-and-clips\" target=\"_blank\">Embedding Video and Clips</a>)."
+                                },
+                                "broadcaster_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that identifies the broadcaster that the video was clipped from."
+                                },
+                                "broadcaster_name": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The broadcaster’s display name."
+                                },
+                                "creator_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that identifies the user that created the clip."
+                                },
+                                "creator_name": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The user’s display name."
+                                },
+                                "video_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that identifies the video that the clip came from. This field contains an empty string if the video is not available."
+                                },
+                                "game_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The ID of the game that was being played when the clip was created."
+                                },
+                                "language": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The ISO 639-1 two-letter language code that the broadcaster broadcasts in. For example, <em>en</em> for English. The value is <em>other</em> if the broadcaster uses a language that Twitch doesn’t support."
+                                },
+                                "title": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The title of the clip."
+                                },
+                                "view_count": {
+                                    "type": "Integer",
+                                    "required": true,
+                                    "instruction": "The number of times the clip has been viewed."
+                                },
+                                "created_at": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The date and time of when the clip was created. The date and time is in RFC3339 format."
+                                },
+                                "thumbnail_url": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "A URL to a thumbnail image of the clip."
+                                },
+                                "duration": {
+                                    "type": "float",
+                                    "required": true,
+                                    "instruction": "The length of the clip, in seconds. Precision is 0.1."
+                                },
+                                "vod_offset": {
+                                    "type": "Integer",
+                                    "required": true,
+                                    "instruction": "The zero-based offset, in seconds, to where the clip starts in the video (VOD). Is <strong>null</strong> if the video is not available or hasn’t been created yet from the live stream (see <code class=\"highlighter-rouge\">video_id</code>).\n<br>\n<br>Note that there’s a delay between when a clip is created during a broadcast and when the offset is set. During the delay period, <code class=\"highlighter-rouge\">vod_offset</code> is <strong>null</strong>. The delay is indeterminant but is typically minutes long."
+                                },
+                                "is_featured": {
+                                    "type": "Boolean",
+                                    "required": true,
+                                    "instruction": "A Boolean value that indicates if the clip is featured or not."
+                                },
+                                "cursor": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The cursor used to get the next page of results. Set the request’s <em>after</em> or <em>before</em> query parameter to this value depending on whether you’re paging forwards or backwards."
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "old": {
+                "request_query_parameters": {
+                    "text": "The <em>id</em>, <em>game_id</em>, and <em>broadcaster_id</em> query parameters are mutually exclusive.",
+                    "items": {
+                        "broadcaster_id": {
+                            "type": "String",
+                            "required": true,
+                            "instruction": "An ID that identifies the broadcaster whose video clips you want to get. Use this parameter to get clips that were captured from the broadcaster’s streams."
+                        },
+                        "game_id": {
+                            "type": "String",
+                            "required": true,
+                            "instruction": "An ID that identifies the game whose clips you want to get. Use this parameter to get clips that were captured from streams that were playing this game."
+                        },
+                        "id": {
+                            "type": "String",
+                            "required": true,
+                            "instruction": "An ID that identifies the clip to get. To specify more than one ID, include this parameter for each clip you want to get. For example, <code class=\"highlighter-rouge\">id=foo&amp;id=bar</code>. You may specify a maximum of 100 IDs. The API ignores duplicate IDs and IDs that aren’t found."
+                        },
+                        "started_at": {
+                            "type": "String",
+                            "required": false,
+                            "instruction": "The start date used to filter clips. The API returns only clips within the start and end date window. Specify the date and time in RFC3339 format."
+                        },
+                        "ended_at": {
+                            "type": "String",
+                            "required": false,
+                            "instruction": "The end date used to filter clips. If not specified, the time window is the start date plus one week. Specify the date and time in RFC3339 format."
+                        },
+                        "first": {
+                            "type": "Integer",
+                            "required": false,
+                            "instruction": "The maximum number of clips to return per page in the response. The minimum page size is 1 clip per page and the maximum is 100. The default is 20."
+                        },
+                        "before": {
+                            "type": "String",
+                            "required": false,
+                            "instruction": "The cursor used to get the previous page of results. The <strong>Pagination</strong> object in the response contains the cursor’s value. <a href=\"https://dev.twitch.tv/docs/api/guide#pagination\" target=\"_blank\">Read More</a>"
+                        },
+                        "after": {
+                            "type": "String",
+                            "required": false,
+                            "instruction": "The cursor used to get the next page of results. The <strong>Pagination</strong> object in the response contains the cursor’s value. <a href=\"https://dev.twitch.tv/docs/api/guide#pagination\" target=\"_blank\">Read More</a>"
+                        }
+                    }
+                },
+                "response_body": {
+                    "items": {
+                        "data": {
+                            "type": "Object[]",
+                            "required": true,
+                            "instruction": "The list of video clips. For clips returned by <em>game_id</em> or <em>broadcaster_id</em>, the list is in descending order by view count. For lists returned by <em>id</em>, the list is in the same order as the input IDs.",
+                            "children": {
+                                "id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that uniquely identifies the clip."
+                                },
+                                "url": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "A URL to the clip."
+                                },
+                                "embed_url": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "A URL that you can use in an iframe to embed the clip (see <a href=\"https://dev.twitch.tv/docs/embed/video-and-clips\" target=\"_blank\">Embedding Video and Clips</a>)."
+                                },
+                                "broadcaster_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that identifies the broadcaster that the video was clipped from."
+                                },
+                                "broadcaster_name": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The broadcaster’s display name."
+                                },
+                                "creator_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that identifies the user that created the clip."
+                                },
+                                "creator_name": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The user’s display name."
+                                },
+                                "video_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that identifies the video that the clip came from. This field contains an empty string if the video is not available."
+                                },
+                                "game_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The ID of the game that was being played when the clip was created."
+                                },
+                                "language": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The ISO 639-1 two-letter language code that the broadcaster broadcasts in. For example, <em>en</em> for English. The value is <em>other</em> if the broadcaster uses a language that Twitch doesn’t support."
+                                },
+                                "title": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The title of the clip."
+                                },
+                                "view_count": {
+                                    "type": "Integer",
+                                    "required": true,
+                                    "instruction": "The number of times the clip has been viewed."
+                                },
+                                "created_at": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The date and time of when the clip was created. The date and time is in RFC3339 format."
+                                },
+                                "thumbnail_url": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "A URL to a thumbnail image of the clip."
+                                },
+                                "duration": {
+                                    "type": "float",
+                                    "required": true,
+                                    "instruction": "The length of the clip, in seconds. Precision is 0.1."
+                                },
+                                "vod_offset": {
+                                    "type": "Integer",
+                                    "required": true,
+                                    "instruction": "The zero-based offset, in seconds, to where the clip starts in the video (VOD). Is <strong>null</strong> if the video is not available or hasn’t been created yet from the live stream (see <code class=\"highlighter-rouge\">video_id</code>).\n<br>\n<br>Note that there’s a delay between when a clip is created during a broadcast and when the offset is set. During the delay period, <code class=\"highlighter-rouge\">vod_offset</code> is <strong>null</strong>. The delay is indeterminant but is typically minutes long."
+                                }
+                            }
+                        },
+                        "pagination": {
+                            "type": "Object",
+                            "required": true,
+                            "instruction": "The information used to page through the list of results. The object is empty if there are no more pages left to page through. <a href=\"https://dev.twitch.tv/docs/api/guide#pagination\" target=\"_blank\">Read More</a>",
+                            "children": {
+                                "id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that uniquely identifies the clip."
+                                },
+                                "url": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "A URL to the clip."
+                                },
+                                "embed_url": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "A URL that you can use in an iframe to embed the clip (see <a href=\"https://dev.twitch.tv/docs/embed/video-and-clips\" target=\"_blank\">Embedding Video and Clips</a>)."
+                                },
+                                "broadcaster_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that identifies the broadcaster that the video was clipped from."
+                                },
+                                "broadcaster_name": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The broadcaster’s display name."
+                                },
+                                "creator_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that identifies the user that created the clip."
+                                },
+                                "creator_name": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The user’s display name."
+                                },
+                                "video_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "An ID that identifies the video that the clip came from. This field contains an empty string if the video is not available."
+                                },
+                                "game_id": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The ID of the game that was being played when the clip was created."
+                                },
+                                "language": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The ISO 639-1 two-letter language code that the broadcaster broadcasts in. For example, <em>en</em> for English. The value is <em>other</em> if the broadcaster uses a language that Twitch doesn’t support."
+                                },
+                                "title": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The title of the clip."
+                                },
+                                "view_count": {
+                                    "type": "Integer",
+                                    "required": true,
+                                    "instruction": "The number of times the clip has been viewed."
+                                },
+                                "created_at": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The date and time of when the clip was created. The date and time is in RFC3339 format."
+                                },
+                                "thumbnail_url": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "A URL to a thumbnail image of the clip."
+                                },
+                                "duration": {
+                                    "type": "float",
+                                    "required": true,
+                                    "instruction": "The length of the clip, in seconds. Precision is 0.1."
+                                },
+                                "vod_offset": {
+                                    "type": "Integer",
+                                    "required": true,
+                                    "instruction": "The zero-based offset, in seconds, to where the clip starts in the video (VOD). Is <strong>null</strong> if the video is not available or hasn’t been created yet from the live stream (see <code class=\"highlighter-rouge\">video_id</code>).\n<br>\n<br>Note that there’s a delay between when a clip is created during a broadcast and when the offset is set. During the delay period, <code class=\"highlighter-rouge\">vod_offset</code> is <strong>null</strong>. The delay is indeterminant but is typically minutes long."
+                                },
+                                "cursor": {
+                                    "type": "String",
+                                    "required": true,
+                                    "instruction": "The cursor used to get the next page of results. Set the request’s <em>after</em> or <em>before</em> query parameter to this value depending on whether you’re paging forwards or backwards."
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "batch_uuid": null,
+        "created_at": "2023-09-14T02:00:03.000000Z"
+    },
+    {
         "id": 330,
         "log_name": "endpoints",
         "description": "updated",
