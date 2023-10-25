@@ -47,7 +47,7 @@ The project is new and is in a kind of open beta.
 | End Guest Star Session                 | `/guest_star/session`                        |                                                                    |
 | End Poll                               | `/polls`                                     |                       `channel:manage:polls`                       |
 | End Prediction                         | `/predictions`                               |                    `channel:manage:predictions`                    |
-| Get Ad Schedule                        | `/channels/ads/schedule/snooze`              |                         `channel:read:ads`                         |
+| Get Ad Schedule                        | `/channels/ads`                              |                         `channel:read:ads`                         |
 | Get All Stream Tags                    | `/tags/streams`                              |                                                                    |
 | Get AutoMod Settings                   | `/moderation/automod/settings`               |                 `moderator:read:automod_settings`                  |
 | Get Banned Users                       | `/moderation/banned`                         |        `moderation:read`<br>`moderator:manage:banned_users`        |
@@ -116,7 +116,7 @@ The project is new and is in a kind of open beta.
 | Send Chat Announcement                 | `/chat/announcements`                        |                  `moderator:manage:announcements`                  |
 | Send Guest Star Invite                 | `/guest_star/invites`                        |                                                                    |
 | Send Whisper                           | `/whispers`                                  |                       `user:manage:whispers`                       |
-| Snooze Next Ad                         | `/channels/ads`                              |                        `channel:manage:ads`                        |
+| Snooze Next Ad                         | `/channels/ads/schedule/snooze`              |                        `channel:manage:ads`                        |
 | Start a raid                           | `/raids`                                     |                       `channel:manage:raids`                       |
 | Start Commercial                       | `/channels/commercial`                       |                     `channel:edit:commercial`                      |
 | Unban User                             | `/moderation/bans`                           |                  `moderator:manage:banned_users`                   |
