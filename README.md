@@ -155,5 +155,5 @@ The project is new and is in a kind of open beta.
 
 ---
 
-* 2023 Norman Huth <[https://huth.it](https://huth.it)>
+* 2024 Norman Huth <[https://huth.it](https://huth.it)>
 * Collect with me or follow me on [LinkedIn](https://www.linkedin.com/in/normanhuth/)
