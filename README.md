@@ -86,6 +86,7 @@ The project is new and is in a kind of open beta.
 | Get Guest Star Invites                 | `/guest_star/invites`                        |                                                                    |
 | Get Guest Star Session                 | `/guest_star/session`                        |                                                                    |
 | Get Hype Train Events                  | `/hypetrain/events`                          |                     `channel:read:hype_train`                      |
+| Get Moderated Channels                 | `/moderation/channels`                       |                                                                    |
 | Get Moderators                         | `/moderation/moderators`                     |          `channel:manage:moderators`<br>`moderation:read`          |
 | Get Polls                              | `/polls`                                     |           `channel:read:polls`<br>`channel:manage:polls`           |
 | Get Predictions                        | `/predictions`                               |     `channel:read:predictions`<br>`channel:manage:predictions`     |
