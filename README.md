@@ -115,6 +115,7 @@ The project is new and is in a kind of open beta.
 | Search Channels                        | `/search/channels`                           |                                                                    |
 | Send a Shoutout                        | `/chat/shoutouts`                            |                    `moderator:manage:shoutouts`                    |
 | Send Chat Announcement                 | `/chat/announcements`                        |                  `moderator:manage:announcements`                  |
+| Send Chat Message                      | `/chat/messages`                             |          `channel:bot`<br>`user:bot`<br>`user:write:chat`          |
 | Send Guest Star Invite                 | `/guest_star/invites`                        |                                                                    |
 | Send Whisper                           | `/whispers`                                  |                       `user:manage:whispers`                       |
 | Snooze Next Ad                         | `/channels/ads/schedule/snooze`              |                        `channel:manage:ads`                        |
@@ -141,8 +142,12 @@ The project is new and is in a kind of open beta.
 
 | Name                                 | Route                                |
 |:-------------------------------------|:-------------------------------------|
+| Create Conduits                      | `/eventsub/conduits`                 |
 | Create Extension Secret              | `/extensions/jwt/secrets`            |
+| Delete Conduit                       | `/eventsub/conduits`                 |
 | Get Channel iCalendar                | `/schedule/icalendar`                |
+| Get Conduit Shards                   | `/eventsub/conduits/shards`          |
+| Get Conduits                         | `/eventsub/conduits`                 |
 | Get Extension Bits Products          | `/bits/extensions`                   |
 | Get Extension Configuration Segment  | `/extensions/configurations`         |
 | Get Extension Secrets                | `/extensions/jwt/secrets`            |
@@ -152,6 +157,8 @@ The project is new and is in a kind of open beta.
 | Send Extension PubSub Message        | `/extensions/pubsub`                 |
 | Set Extension Configuration Segment  | `/extensions/configurations`         |
 | Set Extension Required Configuration | `/extensions/required_configuration` |
+| Update Conduit Shards                | `/eventsub/conduits/shards`          |
+| Update Conduits                      | `/eventsub/conduits`                 |
 | Update Extension Bits Product        | `/bits/extensions`                   |
 
 ---
