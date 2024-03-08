@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --primary-50: theme("colors.teal.50");
+        --primary-100: theme("colors.teal.100");
+        --primary-200: theme("colors.teal.200");
+        --primary-300: theme("colors.teal.300");
+        --primary-400: theme("colors.teal.400");
+        --primary-500: theme("colors.teal.500");
+        --primary-600: theme("colors.teal.600");
+        --primary-700: theme("colors.teal.700");
+        --primary-800: theme("colors.teal.800");
+        --primary-900: theme("colors.teal.900");
+        --primary-950: theme("colors.teal.950");
+        --primary-300-50: theme("colors.teal.300/50");
+        --primary-500-50: theme("colors.teal.500/50");
+        --primary-800-50: theme("colors.teal.800/50");
+        --primary-900-50: theme("colors.teal.900/50");
+        --primary-text: theme("colors.neutral.100");
+        --link: theme("colors.sky.300");
+    }
+
+    body {
+        @apply min-h-screen;
+        @apply bg-primary-900 text-primary-text;
+    }
+
+    #app {
+        @apply flex flex-col h-screen min-h-screen;
+    }
+
+    h1 {
+        @apply font-semibold text-2xl mb-4 border-b-2 pb-0.5 border-dashed;
+    }
+
+    h2 {
+        @apply font-medium text-xl h2border;
+    }
+
+    h3 {
+        @apply font-medium text-lg mb-1;
+    }
+
+    hr {
+        @apply border-primary-800;
+    }
+
+    code, .pill {
+        @apply border px-1 mx-1.5 mb-0.5 rounded border-primary-800/50 bg-primary-900 text-sm;
+    }
+
+    label {
+        @apply cursor-pointer select-none;
+    }
+
+    em {
+        @apply italic;
+    }
+
+    a:not(.btn):not(.cc) {
+        @apply hover:underline text-link font-semibold;
+    }
+
+    .cc {
+        @apply rounded-lg block py-2 px-3;
+        @apply shadow-lg shadow-gray-500/20;
+        @apply bg-gray-800/50;
+        @apply from-gray-700/50 via-transparent;
+
+        &[href^="https"], &[href^="/"] {
+            @apply scale-100;
+            @apply motion-safe:hover:scale-[1.01] transition-all duration-250;
+            @apply hover:outline hover:outline-1 hover:outline-primary-500/50;
+            @apply focus:outline focus:outline-2 focus:outline-primary-500;
+        }
+    }
+
+    .btn {
+        @apply inline-flex items-center border px-1.5 rounded border-primary-800/50 select-none;
+        @apply indent-0.5;
+
+        &:not([disabled]) {
+            @apply hover:bg-primary-800;
+        }
+
+        &:disabled {
+            @apply bg-gray-700;
+        }
+
+        svg {
+            //@apply mr-0.5;
+        }
+    }
+
+    ul:not(.list-none) {
+        @apply list-disc pl-4;
+
+        li {
+            @apply mb-2;
+
+            &:last-child {
+                @apply mb-0;
+            }
+        }
+    }
+}
+
+@layer components {
+    .h2border {
+        @apply mb-2 border-b border-dashed pb-0.5 border-primary-500;
+    }
+}
+
+@import "themes";
+
+.form-select {
+    @apply text-black rounded py-0.5 select-none;
+}
+
+.menu-item {
+    @apply py-1 px-2 hover:bg-primary-800 text-left hover:italic hover:font-semibold;
+}
+
+.form-checkbox {
+    @apply rounded mb-0.5 text-primary-600;
+}
+.form-input, .form-textarea {
+    @apply text-black py-1 px-2 rounded w-full;
+
+    &:read-only {
+        @apply bg-gray-300 text-gray-700;
+    }
+}
+
+.doc-formatted {
+    p {
+        @apply mb-4;
+
+        &:last-child {
+            @apply mb-0;
+        }
+    }
+}
+
+/* Endpoint Child */
+.epc-row * {
+    @apply border-gray-200/50;
+}
+
+.vjs-tree-node.is-highlight, .vjs-tree-node:hover {
+    &:hover {
+        @apply bg-primary-700;
+    }
+}
+
+.vjs-tree {
+    @apply border border-primary-800/50 rounded;
+}
+
+.mb-0-list {
+    li {
+        @apply mb-0;
+    }
+}
+
+blockquote {
+    @apply mt-8 py-2 px-4;
+    @apply border border-l-8;
+    @apply bg-primary-900;
+}
